@@ -125,38 +125,114 @@
         </div>
     </div>
 
+    <!--  Questions  -->
+    <div class="flex max-w-4xl mx-auto flex-col pt-32 gap-24">
+      <div class="flex flex-col gap-10 max-w-5xl mx-auto px-3.5">
+        <h2 class="text-5xl font-bold">Популярные вопросы</h2>
+        <p class="text-2xl font-extralight text-center font-light	">Здесь мы собрали популярные вопросы о фестивале. Если вы не нашли ответа, напишите нам на <a href="https://mail.ru/" class="text-amber-500">info@festival.go</a>.</p>
+      </div>
+
+      <div>
+        <el-collapse>
+          <el-collapse-item title="Какое оборудование необходимо мне, чтобы продавать еду на маркете?" name="1">
+            <div class="text-left">
+              Consistent with real life: in line with the process and logic of real
+              life, and comply with languages and habits that the users are used to;
+            </div>
+            <div class="text-left">
+              Consistent within interface: all elements should be consistent, such
+              as: design style, icons and texts, position of elements, etc.
+            </div>
+          </el-collapse-item>
+          <el-collapse-item title="Какие нужны документы для участия в фестивале?" name="2">
+            <div class="text-left">
+              Consistent with real life: in line with the process and logic of real
+              life, and comply with languages and habits that the users are used to;
+            </div>
+            <div class="text-left">
+              Consistent within interface: all elements should be consistent, such
+              as: design style, icons and texts, position of elements, etc.
+            </div>
+          </el-collapse-item>
+          <el-collapse-item title="Можно ли на фестиваль с маленькими детьми?" name="3">
+            <div class="text-left">
+              Consistent with real life: in line with the process and logic of real
+              life, and comply with languages and habits that the users are used to;
+            </div>
+            <div class="text-left">
+              Consistent within interface: all elements should be consistent, such
+              as: design style, icons and texts, position of elements, etc.
+            </div>
+            <div class="text-left">
+              Easy to identify: the interface should be straightforward, which helps
+              the users to identify and frees them from memorizing and recalling.
+            </div>
+          </el-collapse-item>
+          <el-collapse-item title="Как соблюдаются санитарные условия?" name="4">
+            <div class="text-left">
+              Decision making: giving advices about operations is acceptable, but do
+              not make decisions for the users;
+            </div>
+            <div class="text-left">
+              Controlled consequences: users should be granted the freedom to
+              operate, including canceling, aborting or terminating current
+              operation.
+            </div>
+          </el-collapse-item>
+          <el-collapse-item title="Можно ли готовить на открытом огне во время проведения фестиваля?" name="5">
+            <div class="text-left">
+              Decision making: giving advices about operations is acceptable, but do
+              not make decisions for the users;
+            </div>
+            <div class="text-left">
+              Controlled consequences: users should be granted the freedom to
+              operate, including canceling, aborting or terminating current
+              operation.
+            </div>
+          </el-collapse-item>
+        </el-collapse>
+      </div>
+    </div>
+
     <!--  Speakkers  -->
-    <div class="flex py-16 px-4 justify-center gap-6 flex-wrap">
-      <div class="w-56 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
-        <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/men/15.jpg" alt="" />
-        <div class="p-2">
-          <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white text-left">Стас Савин</h5>
-          <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 mb-6">Дизайн дироектор</p>
-          <p class="font-light text-left text-sm text-gray-700 dark:text-gray-400">Стас знает все о локациях, расположении партнеров и оборудовании</p>
-        </div>
+    <div class="flex flex-col py-32 gap-24">
+      <div class="flex flex-col gap-10 max-w-5xl mx-auto px-3.5">
+        <h2 class="text-5xl font-bold">Программа фестиваля</h2>
+        <p class="text-2xl font-extralight text-center font-light	">Мы активно насыщаем программу: устраиваем игры и конкурсы для детей, играем музыку и делаем световые представления.</p>
       </div>
-      <div class="w-56 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
-        <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/women/18.jpg" alt="" />
-        <div class="p-2">
-          <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white text-left">Ева Надинова</h5>
-          <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 mb-6">Партнеры и спонсоры</p>
-          <p class="font-light text-left text-sm text-gray-700 dark:text-gray-400">Ева — голос нашего фестиваля! Она уделяет много внимания каждому клиенту.</p>
+
+      <div class="flex justify-center gap-6 flex-wrap">
+        <div class="w-56 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
+          <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/men/15.jpg" alt="" />
+          <div class="p-2">
+            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white text-left">Стас Савин</h5>
+            <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 mb-6">Дизайн дироектор</p>
+            <p class="font-light text-left text-sm text-gray-700 dark:text-gray-400">Стас знает все о локациях, расположении партнеров и оборудовании</p>
+          </div>
         </div>
-      </div>
-      <div class="w-56 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
-        <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/women/6.jpg" alt="" />
-        <div class="p-2">
-          <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white text-left">Елена Бакина</h5>
-          <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 mb-6">Основатель и директор фестиваля</p>
-          <p class="font-light text-left text-sm text-gray-700 dark:text-gray-400">Капитан нашего фестиваля! Лена знает о фестивале все! Она собрала нас в отличную команду лучшего городского праздника!</p>
+        <div class="w-56 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
+          <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/women/18.jpg" alt="" />
+          <div class="p-2">
+            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white text-left">Ева Надинова</h5>
+            <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 mb-6">Партнеры и спонсоры</p>
+            <p class="font-light text-left text-sm text-gray-700 dark:text-gray-400">Ева — голос нашего фестиваля! Она уделяет много внимания каждому клиенту.</p>
+          </div>
         </div>
-      </div>
-      <div class="w-56 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
-        <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/women/23.jpg" alt="" />
-        <div class="p-2">
-          <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white text-left">Жанна Корина</h5>
-          <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 mb-6">Менеджер проекта</p>
-          <p class="font-light text-left text-sm text-gray-700 dark:text-gray-400">Все что нужно знать о расписании событий, участниках и партнерах, знает Жанна.</p>
+        <div class="w-56 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
+          <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/women/6.jpg" alt="" />
+          <div class="p-2">
+            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white text-left">Елена Бакина</h5>
+            <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 mb-6">Основатель и директор фестиваля</p>
+            <p class="font-light text-left text-sm text-gray-700 dark:text-gray-400">Капитан нашего фестиваля! Лена знает о фестивале все! Она собрала нас в отличную команду лучшего городского праздника!</p>
+          </div>
+        </div>
+        <div class="w-56 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
+          <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/women/23.jpg" alt="" />
+          <div class="p-2">
+            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white text-left">Жанна Корина</h5>
+            <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 mb-6">Менеджер проекта</p>
+            <p class="font-light text-left text-sm text-gray-700 dark:text-gray-400">Все что нужно знать о расписании событий, участниках и партнерах, знает Жанна.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -206,15 +282,6 @@ export default {
           },
         }
       ],
-      slider: [
-        'https://picsum.photos/1200/700',
-        'https://picsum.photos/1201/700',
-        'https://picsum.photos/1202/700',
-        'https://picsum.photos/1203/700',
-        'https://picsum.photos/1204/700',
-        'https://picsum.photos/1205/700',
-        'https://picsum.photos/1206/700',
-      ]
     }
   }
 }
