@@ -1,9 +1,9 @@
 <template>
   <div>
     <!--  Banner  -->
-    <div class="relative h-screen flex flex-col gap-24 justify-center align-center bg-black">
-      <h3 class="font-medium tracking-widest uppercase">Август, 24-27 / Ташкент</h3>
-      <h1 class="text-6xl font-medium tracking-wide	">Гастро-фестиваль Zira Fest</h1>
+    <div style="background: url('https://picsum.photos/2000/800'), -webkit-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.60));" class="w-full relative h-screen flex flex-col gap-24 justify-center align-center bg-black">
+      <h3 class="font-medium tracking-widest uppercase text-white">Август, 24-27 / Ташкент</h3>
+      <h1 class="text-6xl font-medium tracking-wide	text-white">Гастро-фестиваль Zira Fest</h1>
       <div class="arrow"></div>
     </div>
 
@@ -33,7 +33,7 @@
     </div>
 
     <!--  Map  -->
-    <div class="py-32 bg-gray-100">
+    <div class="flex flex-col py-32 bg-gray-100 gap-24">
       <div class="flex flex-col gap-10 max-w-5xl mx-auto px-3.5">
         <h2 class="text-5xl font-bold">Где проходит фестиваль?</h2>
         <p class="text-2xl font-extralight text-center font-light	">В городе мы задействовали 9 площадок в километровой доступности друг от друга. Сменяйте локацию во время прогулок по городу.</p>
@@ -43,12 +43,57 @@
           :center="center"
           :options="options"
           :zoom="10"
+          style="height: 70vh"
         >
           <GMapCluster :zoomOnClick="true">
             <GMapMarker :key="index" v-for="(m, index) in markers" :position="m.position" :clickable="true" :draggable="true"
                         @click="center = m.position" />
           </GMapCluster>
         </GMapMap>
+      </div>
+    </div>
+
+    <!--  About festival  -->
+    <div class="flex flex-col py-32 gap-24">
+      <div class="flex flex-col gap-10 max-w-5xl mx-auto px-3.5">
+        <h2 class="text-5xl font-bold">Программа фестиваля</h2>
+        <p class="text-2xl font-extralight text-center font-light	">Мы активно насыщаем программу: устраиваем игры и конкурсы для детей, играем музыку и делаем световые представления.</p>
+      </div>
+
+      <div class="flex flex-col gap-16">
+        <div class="card max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover">
+          <img style="height: 80vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/700" alt="Gallery image">
+          <div class="flex flex-col gap-10 absolute bottom-0.5 p-10 pb-16">
+            <h3 class="text-white text-4xl font-bold text-left">Винтажные распродажи</h3>
+            <p class="text-white text-left font-light">5-8 марта</p>
+          </div>
+        </div>
+
+        <div class="flex gap-5 max-w-5xl mx-auto px-6">
+          <div class="card card_small w-1/2 mx-auto bg-gradient-to-t from-gray-400 to-white relative">
+            <img style="height: 80vh; position: relative; z-index: -1" class="w-full" src="https://picsum.photos/600/700" alt="Gallery image">
+            <div class="flex flex-col gap-6 absolute bottom-0.5 p-10">
+              <h3 class="text-white text-2xl font-bold text-left">Маркет еды</h3>
+              <p class="text-white text-left font-light text-sm">5-8 марта</p>
+            </div>
+          </div>
+
+          <div class="card card_small w-1/2 mx-auto bg-gradient-to-t from-gray-400 to-white relative">
+            <img style="height: 80vh; position: relative; z-index: -1" class="w-full" src="https://picsum.photos/600/701" alt="Gallery image">
+            <div class="flex flex-col gap-6 absolute bottom-0.5 p-10">
+              <h3 class="text-white text-2xl font-bold text-left">Стрит арт конкурсы</h3>
+              <p class="text-white text-left font-light text-sm">5-8 марта</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover">
+          <img style="height: 80vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1201/700" alt="Gallery image">
+          <div class="flex flex-col gap-10 absolute bottom-0.5 p-10 pb-16">
+            <h3 class="text-white text-4xl font-bold text-left">MILL MAC,<br> презентация нового альбома</h3>
+            <p class="text-white text-left font-light">5-8 марта</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

@@ -27,7 +27,6 @@ a {
   position: absolute;
   left: 50%;
 }
-
 .arrow {
   width: 40px;
   height: 40px;
@@ -39,7 +38,6 @@ a {
   border-right: 2px #fff solid;
   border-bottom: 2px #fff solid;
 }
-
 .arrow:before {
   content: '';
   width: 20px;
@@ -54,7 +52,6 @@ a {
   animation-iteration-count: infinite;
   animation-name: arrow;
 }
-
 @keyframes arrow {
   0% {
     opacity: 1;
@@ -62,5 +59,26 @@ a {
   100% {
     opacity: 0;
     transform: translate(-10px, -10px);
+  }
+}
+
+// Background gradient color
+.card {
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.60));
+  transition: all ease-in-out .25s;
+  &:hover {
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.30));
+    transition: all ease-in-out .25s;
+  }
+}
+.card_small {
+  max-height: 400px;
+  overflow: hidden;
+  transition: all 1s ease-in;
+  &:hover {
+    transition: all 1s ease-in;
+    img {
+      transform: scale(1.2);
+    }
   }
 }
