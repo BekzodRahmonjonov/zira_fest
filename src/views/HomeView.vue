@@ -125,6 +125,36 @@
         </div>
     </div>
 
+    <!--  How to get involved  -->
+    <div class="flex flex-col py-32 gap-24 align-center justify-center max-w-5xl mx-auto relative">
+      <div class="flex flex-col gap-10 max-w-5xl mx-auto px-3.5">
+        <h2 class="text-5xl font-bold">Как стать участником?</h2>
+        <p class="text-2xl font-extralight text-center font-light	">Если вы варите невероятный кофе, делаете украшения, играете в группе или театре или ведете другое интересное дело, мы вам очень рады! Напишите как вы сможете сделаете фестиваль ярче!</p>
+      </div>
+
+      <div class="max-w-4xl center">
+        <div class="email">
+          <label for="email"></label>
+          <input type="email" placeholder="Имейл" name="email" id="email" required>
+        </div>
+        <div class="email">
+          <label for="phone"></label>
+          <input type="email" placeholder="Телефон" name="phone" id="phone" required>
+        </div>
+        <div class="email">
+          <label for="name"></label>
+          <input type="email" placeholder="Имя" name="name" id="name" required>
+        </div>
+        <div class="message">
+          <label for="message"></label>
+          <textarea name="message" placeholder="Напишите нам" id="message" cols="30" rows="3" required></textarea>
+        </div>
+        <div class="submit">
+          <input type="submit" value="Отправить" id="form_button" />
+        </div>
+      </div>
+    </div>
+
     <!--  Questions  -->
     <div class="flex max-w-4xl mx-auto flex-col pt-32 gap-24">
       <div class="flex flex-col gap-10 max-w-5xl mx-auto px-3.5">
