@@ -70,7 +70,7 @@
       </div>
 
       <div class="flex justify-center gap-6 flex-wrap">
-        <div class="w-56 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
+        <div class="w-64 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
           <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/men/15.jpg" alt="" />
           <div class="p-2">
             <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white text-left">Стас Савин</h5>
@@ -78,7 +78,7 @@
             <p class="font-light text-left text-sm text-gray-700 dark:text-gray-400">Стас знает все о локациях, расположении партнеров и оборудовании</p>
           </div>
         </div>
-        <div class="w-56 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
+        <div class="w-64 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
           <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/women/18.jpg" alt="" />
           <div class="p-2">
             <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white text-left">Ева Надинова</h5>
@@ -86,7 +86,7 @@
             <p class="font-light text-left text-sm text-gray-700 dark:text-gray-400">Ева — голос нашего фестиваля! Она уделяет много внимания каждому клиенту.</p>
           </div>
         </div>
-        <div class="w-56 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
+        <div class="w-64 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
           <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/women/6.jpg" alt="" />
           <div class="p-2">
             <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white text-left">Елена Бакина</h5>
@@ -94,7 +94,7 @@
             <p class="font-light text-left text-sm text-gray-700 dark:text-gray-400">Капитан нашего фестиваля! Лена знает о фестивале все! Она собрала нас в отличную команду лучшего городского праздника!</p>
           </div>
         </div>
-        <div class="w-56 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
+        <div class="w-64 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
           <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/women/23.jpg" alt="" />
           <div class="p-2">
             <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white text-left">Жанна Корина</h5>
