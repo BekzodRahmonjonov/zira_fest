@@ -82,7 +82,9 @@
               <h3 class="text-white font-semibold text-xl">210 000 ₽</h3>
             </div>
             <div class="flex flex-col align-bottom justify-end">
-              <el-button class="w-28">Default</el-button>
+              <a href="#form">
+                <el-button class="w-28">Buy</el-button>
+              </a>
             </div>
           </div>
         </div>
@@ -99,7 +101,9 @@
               <h3 class="text-white font-semibold text-xl">210 000 ₽</h3>
             </div>
             <div class="flex flex-col align-bottom justify-end">
-              <el-button class="w-28">Default</el-button>
+              <a href="#form">
+                <el-button class="w-28">Buy</el-button>
+              </a>
             </div>
           </div>
         </div>
@@ -116,7 +120,9 @@
               <h3 class="text-white font-semibold text-xl">210 000 ₽</h3>
             </div>
             <div class="flex flex-col align-bottom justify-end">
-              <el-button class="w-28">Default</el-button>
+              <a href="#form">
+                <el-button class="w-28">Buy</el-button>
+              </a>
             </div>
           </div>
         </div>
@@ -133,7 +139,9 @@
               <h3 class="text-white font-semibold text-xl">210 000 ₽</h3>
             </div>
             <div class="flex flex-col align-bottom justify-end">
-              <el-button class="w-28">Default</el-button>
+              <a href="#form">
+                <el-button class="w-28">Buy</el-button>
+              </a>
             </div>
           </div>
         </div>
@@ -150,7 +158,9 @@
               <h3 class="text-white font-semibold text-xl">210 000 ₽</h3>
             </div>
             <div class="flex flex-col align-bottom justify-end">
-              <el-button class="w-28">Default</el-button>
+              <a href="#form">
+                <el-button class="w-28">Buy</el-button>
+              </a>
             </div>
           </div>
         </div>
@@ -167,7 +177,9 @@
               <h3 class="text-white font-semibold text-xl">210 000 ₽</h3>
             </div>
             <div class="flex flex-col align-bottom justify-end">
-              <el-button class="w-28">Default</el-button>
+              <a href="#form">
+                <el-button class="w-28">Buy</el-button>
+              </a>
             </div>
           </div>
         </div>
@@ -252,7 +264,7 @@
 
     <!--  How to get involved  -->
     <div class="flex flex-col py-32 gap-24 align-center justify-center max-w-5xl mx-auto relative">
-      <div class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
+      <div id="form" class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
         <h2 class="text-3xl font-bold">Как стать участником?</h2>
         <p class="text-base font-extralight text-center font-light	">Если вы варите невероятный кофе, делаете украшения, играете в группе или театре или ведете другое интересное дело, мы вам очень рады! Напишите как вы сможете сделаете фестиваль ярче!</p>
       </div>
