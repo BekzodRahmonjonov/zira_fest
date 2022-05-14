@@ -186,3 +186,9 @@ input[type='text']:focus, [type='email']:focus, textarea:focus {
   background-position: center;
   background-size: cover;
 }
+
+@media screen and (max-width: 768px) {
+  .intro {
+    height: 75vh;
+  }
+}

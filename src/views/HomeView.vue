@@ -1,7 +1,7 @@
 <template>
   <div>
     <!--  Banner  -->
-    <div class="w-full intro md:p-16 p-10 relative h-screen flex flex-col md:gap-24 gap-10 justify-center align-center bg-black">
+    <div class="w-full intro md:p-16 p-10 relative md:h-screen flex flex-col md:gap-24 gap-10 justify-center align-center bg-black">
       <h3 class="font-medium tracking-widest uppercase text-white">Август, 24-27 / Ташкент</h3>
       <h1 class="md:text-6xl text-4xl font-medium tracking-wide text-white">Гастро-фестиваль Zira Fest</h1>
       <div class="arrow"></div>
