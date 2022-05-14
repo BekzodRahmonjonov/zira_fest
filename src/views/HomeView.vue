@@ -1,7 +1,7 @@
 <template>
   <div>
     <!--  Banner  -->
-    <div style="background: url('https://picsum.photos/2000/800'), -webkit-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.60));" class="w-full relative h-screen flex flex-col gap-24 justify-center align-center bg-black">
+    <div class="w-full intro p-16 relative h-screen flex flex-col gap-24 justify-center align-center bg-black">
       <h3 class="font-medium tracking-widest uppercase text-white">Август, 24-27 / Ташкент</h3>
       <h1 class="text-6xl font-medium tracking-wide	text-white">Гастро-фестиваль Zira Fest</h1>
       <div class="arrow"></div>

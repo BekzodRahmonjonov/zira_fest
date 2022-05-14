@@ -177,3 +177,12 @@ input[type='text']:focus, [type='email']:focus, textarea:focus {
     border-radius: 500px 500px 100% 100%;
   }
 }
+
+// Intro
+
+.intro {
+  background-image: url('../images/intro.jpg'), -webkit-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.60));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
