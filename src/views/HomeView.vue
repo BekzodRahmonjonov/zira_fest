@@ -8,7 +8,7 @@
     </div>
 
     <!--  About festival  -->
-    <div class="flex flex-col py-24 gap-14 max-w-5xl center">
+    <div class="flex flex-col py-10 gap-14 max-w-5xl center">
       <div class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
         <h2 class="text-3xl font-bold">Программа фестиваля</h2>
         <p class="text-base font-extralight text-center font-light">Ежегодный весенний фестиваль с винтажными лавками, музыкой и современным искусством. Вы увидите живые выступления актеров, попробуете местной еды и запустите сотни небесных фонарей!</p>
@@ -57,6 +57,49 @@
               <h3 class="text-white text-xl font-bold text-left">Винтажные распродажи</h3>
               <p class="text-base text-white text-left font-light">5-8 марта</p>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  Speakkers  -->
+    <div class="flex flex-col py-32 gap-24">
+      <div class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
+        <h2 class="text-3xl font-bold">Программа фестиваля</h2>
+        <p class="text-base font-extralight text-center font-light	">Мы активно насыщаем программу: устраиваем игры и конкурсы для детей, играем музыку и делаем световые представления.</p>
+      </div>
+
+      <div class="flex justify-center gap-6 flex-wrap">
+        <div class="w-56 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
+          <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/men/15.jpg" alt="" />
+          <div class="p-2">
+            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white text-left">Стас Савин</h5>
+            <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 mb-6">Дизайн дироектор</p>
+            <p class="font-light text-left text-sm text-gray-700 dark:text-gray-400">Стас знает все о локациях, расположении партнеров и оборудовании</p>
+          </div>
+        </div>
+        <div class="w-56 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
+          <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/women/18.jpg" alt="" />
+          <div class="p-2">
+            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white text-left">Ева Надинова</h5>
+            <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 mb-6">Партнеры и спонсоры</p>
+            <p class="font-light text-left text-sm text-gray-700 dark:text-gray-400">Ева — голос нашего фестиваля! Она уделяет много внимания каждому клиенту.</p>
+          </div>
+        </div>
+        <div class="w-56 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
+          <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/women/6.jpg" alt="" />
+          <div class="p-2">
+            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white text-left">Елена Бакина</h5>
+            <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 mb-6">Основатель и директор фестиваля</p>
+            <p class="font-light text-left text-sm text-gray-700 dark:text-gray-400">Капитан нашего фестиваля! Лена знает о фестивале все! Она собрала нас в отличную команду лучшего городского праздника!</p>
+          </div>
+        </div>
+        <div class="w-56 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
+          <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/women/23.jpg" alt="" />
+          <div class="p-2">
+            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white text-left">Жанна Корина</h5>
+            <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 mb-6">Менеджер проекта</p>
+            <p class="font-light text-left text-sm text-gray-700 dark:text-gray-400">Все что нужно знать о расписании событий, участниках и партнерах, знает Жанна.</p>
           </div>
         </div>
       </div>
@@ -126,61 +169,76 @@
             </div>
           </div>
         </div>
-        <div class="ticket overflow-hidden rounded-2xl relative w-80 p-4 py-8">
-          <div class="ticket__left"></div>
-          <div class="ticket__top"></div>
-          <div class="ticket__bottom"></div>
-          <div class="flex justify-between">
-            <div class="flex flex-col text-left pl-6 gap-6">
-              <div>
-                <h3 class="text-white text-xl font-semibold">КАК КОРОЛЬ</h3>
-                <p class="text-white">Осталось 6 шт.</p>
-              </div>
-              <h3 class="text-white font-semibold text-xl">210 000 ₽</h3>
-            </div>
-            <div class="flex flex-col align-bottom justify-end">
-              <a href="#form">
-                <el-button class="w-28">Buy</el-button>
-              </a>
-            </div>
+      </div>
+    </div>
+
+    <div class="py-16 flex flex-col gap-10">
+      <div class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
+        <h2 class="text-3xl font-bold">Карты</h2>
+        <p class="text-base font-extralight text-center font-light">Ежегодный весенний фестиваль с винтажными лавками, музыкой и современным искусством. Вы увидите живые выступления актеров, попробуете местной еды и запустите сотни небесных фонарей!</p>
+      </div>
+      <div class="flex justify-center flex-wrap gap-6 max-w-5xl mx-auto">
+        <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
+          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/709" alt="Gallery image">
+          <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
+            <h3 class="text-white text-xl font-bold text-left">Мебель</h3>
+            <p class="text-base text-white text-left font-light">5-8 марта</p>
           </div>
         </div>
-        <div class="ticket overflow-hidden rounded-2xl relative w-80 p-4 py-8">
-          <div class="ticket__left"></div>
-          <div class="ticket__top"></div>
-          <div class="ticket__bottom"></div>
-          <div class="flex justify-between">
-            <div class="flex flex-col text-left pl-6 gap-6">
-              <div>
-                <h3 class="text-white text-xl font-semibold">КАК КОРОЛЬ</h3>
-                <p class="text-white">Осталось 6 шт.</p>
-              </div>
-              <h3 class="text-white font-semibold text-xl">210 000 ₽</h3>
-            </div>
-            <div class="flex flex-col align-bottom justify-end">
-              <a href="#form">
-                <el-button class="w-28">Buy</el-button>
-              </a>
-            </div>
+        <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
+          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1205/700" alt="Gallery image">
+          <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
+            <h3 class="text-white text-xl font-bold text-left">Оборудование</h3>
+            <p class="text-base text-white text-left font-light">5-8 марта</p>
           </div>
         </div>
-        <div class="ticket overflow-hidden rounded-2xl relative w-80 p-4 py-8">
-          <div class="ticket__left"></div>
-          <div class="ticket__top"></div>
-          <div class="ticket__bottom"></div>
-          <div class="flex justify-between">
-            <div class="flex flex-col text-left pl-6 gap-6">
-              <div>
-                <h3 class="text-white text-xl font-semibold">КАК КОРОЛЬ</h3>
-                <p class="text-white">Осталось 6 шт.</p>
-              </div>
-              <h3 class="text-white font-semibold text-xl">210 000 ₽</h3>
-            </div>
-            <div class="flex flex-col align-bottom justify-end">
-              <a href="#form">
-                <el-button class="w-28">Buy</el-button>
-              </a>
-            </div>
+        <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
+          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1203/700" alt="Gallery image">
+          <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
+            <h3 class="text-white text-xl font-bold text-left">IT- решения: Автоматизация</h3>
+            <p class="text-base text-white text-left font-light">5-8 марта</p>
+          </div>
+        </div>
+        <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
+          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1202/700" alt="Gallery image">
+          <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
+            <h3 class="text-white text-xl font-bold text-left">Посуда</h3>
+            <p class="text-base text-white text-left font-light">5-8 марта</p>
+          </div>
+        </div>
+        <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
+          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1201/700" alt="Gallery image">
+          <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
+            <h3 class="text-white text-xl font-bold text-left">Текстиль</h3>
+            <p class="text-base text-white text-left font-light">5-8 марта</p>
+          </div>
+        </div>
+        <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
+          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/703" alt="Gallery image">
+          <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
+            <h3 class="text-white text-xl font-bold text-left">Продукты питания</h3>
+            <p class="text-base text-white text-left font-light">5-8 марта</p>
+          </div>
+        </div>
+        <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
+          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/702" alt="Gallery image">
+          <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
+            <h3 class="text-white text-xl font-bold text-left">Чай - кофе</h3>
+            <p class="text-base text-white text-left font-light">5-8 марта</p>
+          </div>
+        </div>
+        <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
+          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/701" alt="Gallery image">
+          <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
+            <h3 class="text-white text-xl font-bold text-left">Фрашизы</h3>
+            <p class="text-base text-white text-left font-light">5-8 марта</p>
+          </div>
+        </div>
+        <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
+          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/700" alt="Gallery image">
+          <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
+            <h3 class="text-white text-xl font-bold text-left">Винтажные распродажи</h3>
+            <p class="text-base text-white text-left font-light">5-8 марта</p>
           </div>
         </div>
       </div>
@@ -212,7 +270,7 @@
 <!--    </div>-->
 
     <!--  Map  -->
-    <div class="flex flex-col py-32 bg-gray-100 gap-24">
+    <div class="flex flex-col py-20 bg-gray-100 gap-24">
       <div class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
         <h2 class="text-3xl font-bold">Где проходит фестиваль?</h2>
         <p class="text-base font-extralight text-center font-light">В городе мы задействовали 9 площадок в километровой доступности друг от друга. Сменяйте локацию во время прогулок по городу.</p>
@@ -331,51 +389,8 @@
 <!--      </div>-->
 <!--    </div>-->
 
-    <!--  Speakkers  -->
-    <div class="flex flex-col py-32 gap-24">
-      <div class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
-        <h2 class="text-3xl font-bold">Программа фестиваля</h2>
-        <p class="text-base font-extralight text-center font-light	">Мы активно насыщаем программу: устраиваем игры и конкурсы для детей, играем музыку и делаем световые представления.</p>
-      </div>
-
-      <div class="flex justify-center gap-6 flex-wrap">
-        <div class="w-56 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
-          <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/men/15.jpg" alt="" />
-          <div class="p-2">
-            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white text-left">Стас Савин</h5>
-            <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 mb-6">Дизайн дироектор</p>
-            <p class="font-light text-left text-sm text-gray-700 dark:text-gray-400">Стас знает все о локациях, расположении партнеров и оборудовании</p>
-          </div>
-        </div>
-        <div class="w-56 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
-          <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/women/18.jpg" alt="" />
-          <div class="p-2">
-            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white text-left">Ева Надинова</h5>
-            <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 mb-6">Партнеры и спонсоры</p>
-            <p class="font-light text-left text-sm text-gray-700 dark:text-gray-400">Ева — голос нашего фестиваля! Она уделяет много внимания каждому клиенту.</p>
-          </div>
-        </div>
-        <div class="w-56 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
-          <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/women/6.jpg" alt="" />
-          <div class="p-2">
-            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white text-left">Елена Бакина</h5>
-            <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 mb-6">Основатель и директор фестиваля</p>
-            <p class="font-light text-left text-sm text-gray-700 dark:text-gray-400">Капитан нашего фестиваля! Лена знает о фестивале все! Она собрала нас в отличную команду лучшего городского праздника!</p>
-          </div>
-        </div>
-        <div class="w-56 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
-          <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/women/23.jpg" alt="" />
-          <div class="p-2">
-            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white text-left">Жанна Корина</h5>
-            <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 mb-6">Менеджер проекта</p>
-            <p class="font-light text-left text-sm text-gray-700 dark:text-gray-400">Все что нужно знать о расписании событий, участниках и партнерах, знает Жанна.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!--  How to get involved  -->
-    <div class="flex flex-col py-32 gap-24 align-center justify-center max-w-5xl mx-auto relative">
+    <div class="flex flex-col py-20 gap-24 align-center justify-center max-w-5xl mx-auto relative">
       <div id="form" class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
         <h2 class="text-3xl font-bold">Как стать участником?</h2>
         <p class="text-base font-extralight text-center font-light	">Если вы варите невероятный кофе, делаете украшения, играете в группе или театре или ведете другое интересное дело, мы вам очень рады! Напишите как вы сможете сделаете фестиваль ярче!</p>
@@ -407,7 +422,7 @@
     </div>
 
     <!--  Footer section  -->
-    <footer class="flex flex-col gap-12 bg-black py-24">
+    <footer class="flex flex-col gap-8 bg-black py-10">
       <div class="flex gap-6 justify-center align-middle">
         <a href="https://twitter.com/" target="_blank">
           <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve"><desc>Twitter</desc><path style="fill:#ffffff;" d="M41.8 12.7c-1.3.6-2.8 1-4.2 1.1 1.5-1 2.6-2.3 3.2-4-1.5.8-2.9 1.5-4.7 1.8-1.3-1.5-3.2-2.3-5.3-2.3-4 0-7.3 3.2-7.3 7.3 0 .6 0 1.1.2 1.6-6-.3-11.3-3.2-15.1-7.6-.6 1.1-1 2.3-1 3.7 0 2.6 1.3 4.7 3.2 6-1.1 0-2.3-.3-3.2-1v.2c0 3.6 2.4 6.5 5.8 7.1-.6.2-1.3.3-1.9.3-.5 0-1 0-1.3-.2 1 2.9 3.6 5 6.8 5-2.4 1.9-5.7 3.1-9.1 3.1-.6 0-1.1 0-1.8-.2 3.2 2.1 7 3.2 11.2 3.2 13.4 0 20.7-11 20.7-20.7v-1c1.7-.7 2.8-2 3.8-3.4z"></path></svg>
