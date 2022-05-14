@@ -1,21 +1,21 @@
 <template>
   <div>
     <!--  Banner  -->
-    <div class="w-full intro p-16 relative h-screen flex flex-col gap-24 justify-center align-center bg-black">
+    <div class="w-full intro md:p-16 p-10 relative h-screen flex flex-col md:gap-24 gap-10 justify-center align-center bg-black">
       <h3 class="font-medium tracking-widest uppercase text-white">Август, 24-27 / Ташкент</h3>
-      <h1 class="text-6xl font-medium tracking-wide	text-white">Гастро-фестиваль Zira Fest</h1>
+      <h1 class="md:text-6xl text-4xl font-medium tracking-wide text-white">Гастро-фестиваль Zira Fest</h1>
       <div class="arrow"></div>
     </div>
 
     <!--  About festival  -->
-    <div class="flex flex-col py-10 gap-14 max-w-5xl center">
+    <div class="flex flex-col sm:py-10 py-6 gap-14 max-w-5xl center px-5">
       <div class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
         <h2 class="text-3xl font-bold">Программа фестиваля</h2>
         <p class="text-base font-extralight text-center font-light">Ежегодный весенний фестиваль с винтажными лавками, музыкой и современным искусством. Вы увидите живые выступления актеров, попробуете местной еды и запустите сотни небесных фонарей!</p>
       </div>
 
-      <div class="flex gap-2">
-        <div class="flex w-1/3 flex-col gap-2">
+      <div class="flex sm:flex-row flex-col gap-2">
+        <div class="flex sm:w-1/3 flex-col w-72 mx-auto gap-2">
           <div class="card card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
             <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/700" alt="Gallery image">
             <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
@@ -33,7 +33,7 @@
           </div>
         </div>
 
-        <div class="card card_small w-1/3 mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
+        <div class="card card_small sm:w-1/3 w-72 mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
           <img style="height: 61vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/1000" alt="Gallery image">
           <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
             <h3 class="text-white text-xl font-bold text-left">Винтажные распродажи</h3>
@@ -41,7 +41,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col w-1/3 gap-2">
+        <div class="flex flex-col sm:w-1/3 w-72 mx-auto gap-2">
           <div class="card card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
             <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/700" alt="Gallery image">
             <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
@@ -63,7 +63,7 @@
     </div>
 
     <!--  Speakkers  -->
-    <div class="flex flex-col py-32 gap-24">
+    <div class="flex flex-col md:py-20 py-10 md:gap-24 gap-10">
       <div class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
         <h2 class="text-3xl font-bold">Программа фестиваля</h2>
         <p class="text-base font-extralight text-center font-light	">Мы активно насыщаем программу: устраиваем игры и конкурсы для детей, играем музыку и делаем световые представления.</p>
@@ -106,7 +106,7 @@
     </div>
 
     <!--  Ticket  -->
-    <div class="max-w-5xl center py-24">
+    <div class="max-w-5xl center md:py-20 py-10">
       <div class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
         <h2 class="text-3xl font-bold">Билеты</h2>
         <p class="text-base font-extralight text-center font-light">Ежегодный весенний фестиваль с винтажными лавками, музыкой и современным искусством. Вы увидите живые выступления актеров, попробуете местной еды и запустите сотни небесных фонарей!</p>
@@ -270,7 +270,7 @@
 <!--    </div>-->
 
     <!--  Map  -->
-    <div class="flex flex-col py-20 bg-gray-100 gap-24">
+    <div class="flex flex-col md:py-20 py-10 bg-gray-100 md:gap-24 gap-10">
       <div class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
         <h2 class="text-3xl font-bold">Где проходит фестиваль?</h2>
         <p class="text-base font-extralight text-center font-light">В городе мы задействовали 9 площадок в километровой доступности друг от друга. Сменяйте локацию во время прогулок по городу.</p>
@@ -390,13 +390,13 @@
 <!--    </div>-->
 
     <!--  How to get involved  -->
-    <div class="flex flex-col py-20 gap-24 align-center justify-center max-w-5xl mx-auto relative">
+    <div class="flex flex-col md:py-20 py-10 md:gap-24 gap-10 align-center justify-center max-w-5xl mx-auto relative">
       <div id="form" class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
         <h2 class="text-3xl font-bold">Как стать участником?</h2>
         <p class="text-base font-extralight text-center font-light	">Если вы варите невероятный кофе, делаете украшения, играете в группе или театре или ведете другое интересное дело, мы вам очень рады! Напишите как вы сможете сделаете фестиваль ярче!</p>
       </div>
 
-      <div class="max-w-4xl center">
+      <div class="max-w-4xl center px-5">
         <form>
           <div class="email">
             <label for="email"></label>
