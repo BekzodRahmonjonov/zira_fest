@@ -7,36 +7,203 @@
       <div class="arrow"></div>
     </div>
 
-    <!--  About Event  -->
-    <div class="flex flex-col py-32 gap-32">
-      <div class="max-w-4xl px-3.5 mx-auto">
-        <p class="text-2xl font-extralight text-center">Ежегодный весенний фестиваль с винтажными лавками, музыкой и современным искусством. Вы увидите живые выступления актеров, попробуете местной еды и запустите сотни небесных фонарей!</p>
+    <!--  About festival  -->
+    <div class="flex flex-col py-24 gap-14 max-w-5xl center">
+      <div class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
+        <h2 class="text-3xl font-bold">Программа фестиваля</h2>
+        <p class="text-base font-extralight text-center font-light">Ежегодный весенний фестиваль с винтажными лавками, музыкой и современным искусством. Вы увидите живые выступления актеров, попробуете местной еды и запустите сотни небесных фонарей!</p>
       </div>
-      <div class="max-w-7xl mx-auto	flex align-center justify-between gap-14">
-        <div class="w-full flex flex-col gap-4">
-          <h3 class="text-lg font-bold">4 дня</h3>
-          <p class="text-base">Каждый день мы представляем новую программу</p>
+
+      <div class="flex gap-2">
+        <div class="flex w-1/3 flex-col gap-2">
+          <div class="card card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
+            <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/700" alt="Gallery image">
+            <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
+              <h3 class="text-white text-xl font-bold text-left">Винтажные распродажи</h3>
+              <p class="text-base text-white text-left font-light">5-8 марта</p>
+            </div>
+          </div>
+
+          <div class="card card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
+            <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/700" alt="Gallery image">
+            <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
+              <h3 class="text-white text-xl font-bold text-left">Винтажные распродажи</h3>
+              <p class="text-base text-white text-left font-light">5-8 марта</p>
+            </div>
+          </div>
         </div>
-        <div class="w-full flex flex-col gap-4">
-          <h3 class="text-lg font-bold">300 участников</h3>
-          <p class="text-base">В фестивале участвуют артисты, музыканты, художники и повара</p>
+
+        <div class="card card_small w-1/3 mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
+          <img style="height: 61vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/1000" alt="Gallery image">
+          <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
+            <h3 class="text-white text-xl font-bold text-left">Винтажные распродажи</h3>
+            <p class="text-base text-white text-left font-light">5-8 марта</p>
+          </div>
         </div>
-        <div class="w-full flex flex-col gap-4">
-          <h3 class="text-lg font-bold">6 сцен</h3>
-          <p class="text-base">На каждой площадке города своя программа</p>
-        </div>
-        <div class="w-full flex flex-col gap-4">
-          <h3 class="text-lg font-bold">9 площадок</h3>
-          <p class="text-base">Выбирайте любую удобную точку для празднования</p>
+
+        <div class="flex flex-col w-1/3 gap-2">
+          <div class="card card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
+            <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/700" alt="Gallery image">
+            <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
+              <h3 class="text-white text-xl font-bold text-left">Винтажные распродажи</h3>
+              <p class="text-base text-white text-left font-light">5-8 марта</p>
+            </div>
+          </div>
+
+
+          <div class="card card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
+            <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/700" alt="Gallery image">
+            <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
+              <h3 class="text-white text-xl font-bold text-left">Винтажные распродажи</h3>
+              <p class="text-base text-white text-left font-light">5-8 марта</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
+    <!--  Ticket  -->
+    <div class="max-w-5xl center py-24">
+      <div class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
+        <h2 class="text-3xl font-bold">Билеты</h2>
+        <p class="text-base font-extralight text-center font-light">Ежегодный весенний фестиваль с винтажными лавками, музыкой и современным искусством. Вы увидите живые выступления актеров, попробуете местной еды и запустите сотни небесных фонарей!</p>
+      </div>
+      <div class="flex flex-wrap gap-8 justify-center py-6">
+        <div class="ticket overflow-hidden rounded-2xl relative w-80 p-4 py-8">
+          <div class="ticket__left"></div>
+          <div class="ticket__top"></div>
+          <div class="ticket__bottom"></div>
+          <div class="flex justify-between">
+            <div class="flex flex-col text-left pl-6 gap-6">
+              <div>
+                <h3 class="text-white text-xl font-semibold">КАК КОРОЛЬ</h3>
+                <p class="text-white">Осталось 6 шт.</p>
+              </div>
+              <h3 class="text-white font-semibold text-xl">210 000 ₽</h3>
+            </div>
+            <div class="flex flex-col align-bottom justify-end">
+              <el-button class="w-28">Default</el-button>
+            </div>
+          </div>
+        </div>
+        <div class="ticket overflow-hidden rounded-2xl relative w-80 p-4 py-8">
+          <div class="ticket__left"></div>
+          <div class="ticket__top"></div>
+          <div class="ticket__bottom"></div>
+          <div class="flex justify-between">
+            <div class="flex flex-col text-left pl-6 gap-6">
+              <div>
+                <h3 class="text-white text-xl font-semibold">КАК КОРОЛЬ</h3>
+                <p class="text-white">Осталось 6 шт.</p>
+              </div>
+              <h3 class="text-white font-semibold text-xl">210 000 ₽</h3>
+            </div>
+            <div class="flex flex-col align-bottom justify-end">
+              <el-button class="w-28">Default</el-button>
+            </div>
+          </div>
+        </div>
+        <div class="ticket overflow-hidden rounded-2xl relative w-80 p-4 py-8">
+          <div class="ticket__left"></div>
+          <div class="ticket__top"></div>
+          <div class="ticket__bottom"></div>
+          <div class="flex justify-between">
+            <div class="flex flex-col text-left pl-6 gap-6">
+              <div>
+                <h3 class="text-white text-xl font-semibold">КАК КОРОЛЬ</h3>
+                <p class="text-white">Осталось 6 шт.</p>
+              </div>
+              <h3 class="text-white font-semibold text-xl">210 000 ₽</h3>
+            </div>
+            <div class="flex flex-col align-bottom justify-end">
+              <el-button class="w-28">Default</el-button>
+            </div>
+          </div>
+        </div>
+        <div class="ticket overflow-hidden rounded-2xl relative w-80 p-4 py-8">
+          <div class="ticket__left"></div>
+          <div class="ticket__top"></div>
+          <div class="ticket__bottom"></div>
+          <div class="flex justify-between">
+            <div class="flex flex-col text-left pl-6 gap-6">
+              <div>
+                <h3 class="text-white text-xl font-semibold">КАК КОРОЛЬ</h3>
+                <p class="text-white">Осталось 6 шт.</p>
+              </div>
+              <h3 class="text-white font-semibold text-xl">210 000 ₽</h3>
+            </div>
+            <div class="flex flex-col align-bottom justify-end">
+              <el-button class="w-28">Default</el-button>
+            </div>
+          </div>
+        </div>
+        <div class="ticket overflow-hidden rounded-2xl relative w-80 p-4 py-8">
+          <div class="ticket__left"></div>
+          <div class="ticket__top"></div>
+          <div class="ticket__bottom"></div>
+          <div class="flex justify-between">
+            <div class="flex flex-col text-left pl-6 gap-6">
+              <div>
+                <h3 class="text-white text-xl font-semibold">КАК КОРОЛЬ</h3>
+                <p class="text-white">Осталось 6 шт.</p>
+              </div>
+              <h3 class="text-white font-semibold text-xl">210 000 ₽</h3>
+            </div>
+            <div class="flex flex-col align-bottom justify-end">
+              <el-button class="w-28">Default</el-button>
+            </div>
+          </div>
+        </div>
+        <div class="ticket overflow-hidden rounded-2xl relative w-80 p-4 py-8">
+          <div class="ticket__left"></div>
+          <div class="ticket__top"></div>
+          <div class="ticket__bottom"></div>
+          <div class="flex justify-between">
+            <div class="flex flex-col text-left pl-6 gap-6">
+              <div>
+                <h3 class="text-white text-xl font-semibold">КАК КОРОЛЬ</h3>
+                <p class="text-white">Осталось 6 шт.</p>
+              </div>
+              <h3 class="text-white font-semibold text-xl">210 000 ₽</h3>
+            </div>
+            <div class="flex flex-col align-bottom justify-end">
+              <el-button class="w-28">Default</el-button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  About Event  -->
+<!--    <div class="flex flex-col py-32 gap-32">-->
+<!--      <div class="max-w-4xl px-3.5 mx-auto">-->
+<!--        <p class="text-2xl font-extralight text-center">Ежегодный весенний фестиваль с винтажными лавками, музыкой и современным искусством. Вы увидите живые выступления актеров, попробуете местной еды и запустите сотни небесных фонарей!</p>-->
+<!--      </div>-->
+<!--      <div class="max-w-7xl mx-auto	flex align-center justify-between gap-14">-->
+<!--        <div class="w-full flex flex-col gap-4">-->
+<!--          <h3 class="text-lg font-bold">4 дня</h3>-->
+<!--          <p class="text-base">Каждый день мы представляем новую программу</p>-->
+<!--        </div>-->
+<!--        <div class="w-full flex flex-col gap-4">-->
+<!--          <h3 class="text-lg font-bold">300 участников</h3>-->
+<!--          <p class="text-base">В фестивале участвуют артисты, музыканты, художники и повара</p>-->
+<!--        </div>-->
+<!--        <div class="w-full flex flex-col gap-4">-->
+<!--          <h3 class="text-lg font-bold">6 сцен</h3>-->
+<!--          <p class="text-base">На каждой площадке города своя программа</p>-->
+<!--        </div>-->
+<!--        <div class="w-full flex flex-col gap-4">-->
+<!--          <h3 class="text-lg font-bold">9 площадок</h3>-->
+<!--          <p class="text-base">Выбирайте любую удобную точку для празднования</p>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+
     <!--  Map  -->
     <div class="flex flex-col py-32 bg-gray-100 gap-24">
-      <div class="flex flex-col gap-10 max-w-5xl mx-auto px-3.5">
-        <h2 class="text-5xl font-bold">Где проходит фестиваль?</h2>
-        <p class="text-2xl font-extralight text-center font-light	">В городе мы задействовали 9 площадок в километровой доступности друг от друга. Сменяйте локацию во время прогулок по городу.</p>
+      <div class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
+        <h2 class="text-3xl font-bold">Где проходит фестиваль?</h2>
+        <p class="text-base font-extralight text-center font-light">В городе мы задействовали 9 площадок в километровой доступности друг от друга. Сменяйте локацию во время прогулок по городу.</p>
       </div>
       <div>
         <GMapMap
@@ -53,182 +220,142 @@
       </div>
     </div>
 
-    <!--  About festival  -->
-    <div class="flex flex-col py-32 gap-24">
-      <div class="flex flex-col gap-10 max-w-5xl mx-auto px-3.5">
-        <h2 class="text-5xl font-bold">Программа фестиваля</h2>
-        <p class="text-2xl font-extralight text-center font-light	">Мы активно насыщаем программу: устраиваем игры и конкурсы для детей, играем музыку и делаем световые представления.</p>
-      </div>
 
-      <div class="flex flex-col gap-16">
-        <div class="card max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover">
-          <img style="height: 80vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/700" alt="Gallery image">
-          <div class="flex flex-col gap-10 absolute bottom-0.5 p-10 pb-16">
-            <h3 class="text-white text-4xl font-bold text-left">Винтажные распродажи</h3>
-            <p class="text-white text-left font-light">5-8 марта</p>
-          </div>
-        </div>
-
-        <div class="flex gap-5 max-w-5xl mx-auto px-6">
-          <div class="card card_small w-1/2 mx-auto bg-gradient-to-t from-gray-400 to-white relative">
-            <img style="height: 80vh; position: relative; z-index: -1" class="w-full" src="https://picsum.photos/600/700" alt="Gallery image">
-            <div class="flex flex-col gap-6 absolute bottom-0.5 p-10">
-              <h3 class="text-white text-2xl font-bold text-left">Маркет еды</h3>
-              <p class="text-white text-left font-light text-sm">5-8 марта</p>
-            </div>
-          </div>
-
-          <div class="card card_small w-1/2 mx-auto bg-gradient-to-t from-gray-400 to-white relative">
-            <img style="height: 80vh; position: relative; z-index: -1" class="w-full" src="https://picsum.photos/600/701" alt="Gallery image">
-            <div class="flex flex-col gap-6 absolute bottom-0.5 p-10">
-              <h3 class="text-white text-2xl font-bold text-left">Стрит арт конкурсы</h3>
-              <p class="text-white text-left font-light text-sm">5-8 марта</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover">
-          <img style="height: 80vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1201/700" alt="Gallery image">
-          <div class="flex flex-col gap-10 absolute bottom-0.5 p-10 pb-16">
-            <h3 class="text-white text-4xl font-bold text-left">MILL MAC,<br> презентация нового альбома</h3>
-            <p class="text-white text-left font-light">7 марта / парк Fillier / 22:30</p>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <!--  How to was in 2016 - Slider  -->
-    <div class="flex flex-col py-32 gap-24 bg-gray-100 align-center justify-center">
-      <div class="flex flex-col gap-10 max-w-5xl mx-auto px-3.5">
-        <h2 class="text-5xl font-bold">Программа фестиваля</h2>
-        <p class="text-2xl font-extralight text-center font-light	">Мы активно насыщаем программу: устраиваем игры и конкурсы для детей, играем музыку и делаем световые представления.</p>
-      </div>
+<!--    <div class="flex flex-col py-32 gap-24 bg-gray-100 align-center justify-center">-->
+<!--      <div class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">-->
+<!--        <h2 class="text-3xl font-bold">Программа фестиваля</h2>-->
+<!--        <p class="text-base font-extralight text-center font-light">Мы активно насыщаем программу: устраиваем игры и конкурсы для детей, играем музыку и делаем световые представления.</p>-->
+<!--      </div>-->
 
-      <div class="center max-w-5xl overflow-hidden">
-          <el-carousel class="w-full" height="60vh">
-            <el-carousel-item>
-              <img class="h-full object-cover w-full" src="https://picsum.photos/1200/700" alt="">
-            </el-carousel-item>
-            <el-carousel-item>
-              <img class="h-full object-cover w-full" src="https://picsum.photos/1201/700" alt="">
-            </el-carousel-item>
-            <el-carousel-item>
-              <img class="h-full object-cover w-full" src="https://picsum.photos/1202/700" alt="">
-            </el-carousel-item>
-            <el-carousel-item>
-              <img class="h-full object-cover w-full" src="https://picsum.photos/1203/700" alt="">
-            </el-carousel-item>
-            <el-carousel-item>
-              <img class="h-full object-cover w-full" src="https://picsum.photos/1204/700" alt="">
-            </el-carousel-item>
-          </el-carousel>
-        </div>
-    </div>
+<!--      <div class="center max-w-5xl overflow-hidden">-->
+<!--          <el-carousel class="w-full" height="60vh">-->
+<!--            <el-carousel-item>-->
+<!--              <img class="h-full object-cover w-full" src="https://picsum.photos/1200/700" alt="">-->
+<!--            </el-carousel-item>-->
+<!--            <el-carousel-item>-->
+<!--              <img class="h-full object-cover w-full" src="https://picsum.photos/1201/700" alt="">-->
+<!--            </el-carousel-item>-->
+<!--            <el-carousel-item>-->
+<!--              <img class="h-full object-cover w-full" src="https://picsum.photos/1202/700" alt="">-->
+<!--            </el-carousel-item>-->
+<!--            <el-carousel-item>-->
+<!--              <img class="h-full object-cover w-full" src="https://picsum.photos/1203/700" alt="">-->
+<!--            </el-carousel-item>-->
+<!--            <el-carousel-item>-->
+<!--              <img class="h-full object-cover w-full" src="https://picsum.photos/1204/700" alt="">-->
+<!--            </el-carousel-item>-->
+<!--          </el-carousel>-->
+<!--        </div>-->
+<!--    </div>-->
 
     <!--  How to get involved  -->
     <div class="flex flex-col py-32 gap-24 align-center justify-center max-w-5xl mx-auto relative">
-      <div class="flex flex-col gap-10 max-w-5xl mx-auto px-3.5">
-        <h2 class="text-5xl font-bold">Как стать участником?</h2>
-        <p class="text-2xl font-extralight text-center font-light	">Если вы варите невероятный кофе, делаете украшения, играете в группе или театре или ведете другое интересное дело, мы вам очень рады! Напишите как вы сможете сделаете фестиваль ярче!</p>
+      <div class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
+        <h2 class="text-3xl font-bold">Как стать участником?</h2>
+        <p class="text-base font-extralight text-center font-light	">Если вы варите невероятный кофе, делаете украшения, играете в группе или театре или ведете другое интересное дело, мы вам очень рады! Напишите как вы сможете сделаете фестиваль ярче!</p>
       </div>
 
       <div class="max-w-4xl center">
-        <div class="email">
-          <label for="email"></label>
-          <input type="email" placeholder="Имейл" name="email" id="email" required>
-        </div>
-        <div class="email">
-          <label for="phone"></label>
-          <input type="email" placeholder="Телефон" name="phone" id="phone" required>
-        </div>
-        <div class="email">
-          <label for="name"></label>
-          <input type="email" placeholder="Имя" name="name" id="name" required>
-        </div>
-        <div class="message">
-          <label for="message"></label>
-          <textarea name="message" placeholder="Напишите нам" id="message" cols="30" rows="3" required></textarea>
-        </div>
-        <div class="submit">
-          <input type="submit" value="Отправить" id="form_button" />
-        </div>
+        <form>
+          <div class="email">
+            <label for="email"></label>
+            <input type="email" placeholder="Имейл" name="email" id="email" required>
+          </div>
+          <div class="email">
+            <label for="phone"></label>
+            <input type="email" placeholder="Телефон" name="phone" id="phone" required>
+          </div>
+          <div class="email">
+            <label for="name"></label>
+            <input type="email" placeholder="Имя" name="name" id="name" required>
+          </div>
+          <div class="message">
+            <label for="message"></label>
+            <textarea name="message" placeholder="Напишите нам" id="message" cols="30" rows="3" required></textarea>
+          </div>
+          <div class="submit">
+            <input type="submit" value="Отправить" id="form_button" />
+          </div>
+        </form>
       </div>
     </div>
 
     <!--  Questions  -->
-    <div class="flex max-w-4xl mx-auto flex-col pt-32 gap-24">
-      <div class="flex flex-col gap-10 max-w-5xl mx-auto px-3.5">
-        <h2 class="text-5xl font-bold">Популярные вопросы</h2>
-        <p class="text-2xl font-extralight text-center font-light	">Здесь мы собрали популярные вопросы о фестивале. Если вы не нашли ответа, напишите нам на <a href="https://mail.ru/" class="text-amber-500">info@festival.go</a>.</p>
-      </div>
+<!--    <div class="flex max-w-4xl mx-auto flex-col pt-32 gap-24">-->
+<!--      <div class="flex flex-col gap-10 max-w-5xl mx-auto px-3.5">-->
+<!--        <h2 class="text-5xl font-bold">Популярные вопросы</h2>-->
+<!--        <p class="text-2xl font-extralight text-center font-light	">Здесь мы собрали популярные вопросы о фестивале. Если вы не нашли ответа, напишите нам на <a href="https://mail.ru/" class="text-amber-500">info@festival.go</a>.</p>-->
+<!--      </div>-->
 
-      <div>
-        <el-collapse>
-          <el-collapse-item title="Какое оборудование необходимо мне, чтобы продавать еду на маркете?" name="1">
-            <div class="text-left">
-              Consistent with real life: in line with the process and logic of real
-              life, and comply with languages and habits that the users are used to;
-            </div>
-            <div class="text-left">
-              Consistent within interface: all elements should be consistent, such
-              as: design style, icons and texts, position of elements, etc.
-            </div>
-          </el-collapse-item>
-          <el-collapse-item title="Какие нужны документы для участия в фестивале?" name="2">
-            <div class="text-left">
-              Consistent with real life: in line with the process and logic of real
-              life, and comply with languages and habits that the users are used to;
-            </div>
-            <div class="text-left">
-              Consistent within interface: all elements should be consistent, such
-              as: design style, icons and texts, position of elements, etc.
-            </div>
-          </el-collapse-item>
-          <el-collapse-item title="Можно ли на фестиваль с маленькими детьми?" name="3">
-            <div class="text-left">
-              Consistent with real life: in line with the process and logic of real
-              life, and comply with languages and habits that the users are used to;
-            </div>
-            <div class="text-left">
-              Consistent within interface: all elements should be consistent, such
-              as: design style, icons and texts, position of elements, etc.
-            </div>
-            <div class="text-left">
-              Easy to identify: the interface should be straightforward, which helps
-              the users to identify and frees them from memorizing and recalling.
-            </div>
-          </el-collapse-item>
-          <el-collapse-item title="Как соблюдаются санитарные условия?" name="4">
-            <div class="text-left">
-              Decision making: giving advices about operations is acceptable, but do
-              not make decisions for the users;
-            </div>
-            <div class="text-left">
-              Controlled consequences: users should be granted the freedom to
-              operate, including canceling, aborting or terminating current
-              operation.
-            </div>
-          </el-collapse-item>
-          <el-collapse-item title="Можно ли готовить на открытом огне во время проведения фестиваля?" name="5">
-            <div class="text-left">
-              Decision making: giving advices about operations is acceptable, but do
-              not make decisions for the users;
-            </div>
-            <div class="text-left">
-              Controlled consequences: users should be granted the freedom to
-              operate, including canceling, aborting or terminating current
-              operation.
-            </div>
-          </el-collapse-item>
-        </el-collapse>
-      </div>
-    </div>
+<!--      <div>-->
+<!--        <el-collapse>-->
+<!--          <el-collapse-item title="Какое оборудование необходимо мне, чтобы продавать еду на маркете?" name="1">-->
+<!--            <div class="text-left">-->
+<!--              Consistent with real life: in line with the process and logic of real-->
+<!--              life, and comply with languages and habits that the users are used to;-->
+<!--            </div>-->
+<!--            <div class="text-left">-->
+<!--              Consistent within interface: all elements should be consistent, such-->
+<!--              as: design style, icons and texts, position of elements, etc.-->
+<!--            </div>-->
+<!--          </el-collapse-item>-->
+<!--          <el-collapse-item title="Какие нужны документы для участия в фестивале?" name="2">-->
+<!--            <div class="text-left">-->
+<!--              Consistent with real life: in line with the process and logic of real-->
+<!--              life, and comply with languages and habits that the users are used to;-->
+<!--            </div>-->
+<!--            <div class="text-left">-->
+<!--              Consistent within interface: all elements should be consistent, such-->
+<!--              as: design style, icons and texts, position of elements, etc.-->
+<!--            </div>-->
+<!--          </el-collapse-item>-->
+<!--          <el-collapse-item title="Можно ли на фестиваль с маленькими детьми?" name="3">-->
+<!--            <div class="text-left">-->
+<!--              Consistent with real life: in line with the process and logic of real-->
+<!--              life, and comply with languages and habits that the users are used to;-->
+<!--            </div>-->
+<!--            <div class="text-left">-->
+<!--              Consistent within interface: all elements should be consistent, such-->
+<!--              as: design style, icons and texts, position of elements, etc.-->
+<!--            </div>-->
+<!--            <div class="text-left">-->
+<!--              Easy to identify: the interface should be straightforward, which helps-->
+<!--              the users to identify and frees them from memorizing and recalling.-->
+<!--            </div>-->
+<!--          </el-collapse-item>-->
+<!--          <el-collapse-item title="Как соблюдаются санитарные условия?" name="4">-->
+<!--            <div class="text-left">-->
+<!--              Decision making: giving advices about operations is acceptable, but do-->
+<!--              not make decisions for the users;-->
+<!--            </div>-->
+<!--            <div class="text-left">-->
+<!--              Controlled consequences: users should be granted the freedom to-->
+<!--              operate, including canceling, aborting or terminating current-->
+<!--              operation.-->
+<!--            </div>-->
+<!--          </el-collapse-item>-->
+<!--          <el-collapse-item title="Можно ли готовить на открытом огне во время проведения фестиваля?" name="5">-->
+<!--            <div class="text-left">-->
+<!--              Decision making: giving advices about operations is acceptable, but do-->
+<!--              not make decisions for the users;-->
+<!--            </div>-->
+<!--            <div class="text-left">-->
+<!--              Controlled consequences: users should be granted the freedom to-->
+<!--              operate, including canceling, aborting or terminating current-->
+<!--              operation.-->
+<!--            </div>-->
+<!--          </el-collapse-item>-->
+<!--        </el-collapse>-->
+<!--      </div>-->
+<!--    </div>-->
 
     <!--  Speakkers  -->
     <div class="flex flex-col py-32 gap-24">
-      <div class="flex flex-col gap-10 max-w-5xl mx-auto px-3.5">
-        <h2 class="text-5xl font-bold">Программа фестиваля</h2>
-        <p class="text-2xl font-extralight text-center font-light	">Мы активно насыщаем программу: устраиваем игры и конкурсы для детей, играем музыку и делаем световые представления.</p>
+      <div class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
+        <h2 class="text-3xl font-bold">Программа фестиваля</h2>
+        <p class="text-base font-extralight text-center font-light	">Мы активно насыщаем программу: устраиваем игры и конкурсы для детей, играем музыку и делаем световые представления.</p>
       </div>
 
       <div class="flex justify-center gap-6 flex-wrap">
