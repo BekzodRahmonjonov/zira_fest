@@ -195,6 +195,7 @@ input[type='text']:focus, [type='email']:focus, textarea:focus {
     width: 280px;
   }
   .sm-width {
+    //min-width: 100px;
     overflow-x: scroll;
     padding-bottom: 5px;
     &::-webkit-scrollbar {

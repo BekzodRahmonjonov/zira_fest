@@ -15,7 +15,7 @@
       </div>
 
       <div class="flex sm-width gap-2">
-        <div class="flex sm:w-1/3 flex-col mx-auto gap-2">
+        <div class="flex lg:w-1/3 flex-col mx-auto gap-2">
           <div class="card card_small_w max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
             <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/700" alt="Gallery image">
             <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
@@ -33,7 +33,7 @@
           </div>
         </div>
 
-        <div class="md:w-1/3">
+        <div class="lg:w-1/3">
           <div class="card card_small card_small_w w-full md:mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
             <img style="height: 61vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/1000" alt="Gallery image">
             <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
@@ -43,7 +43,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col sm:w-1/3 mx-auto gap-2">
+        <div class="flex flex-col lg:w-1/3 mx-auto gap-2">
           <div class="card card_small_w card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
             <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/700" alt="Gallery image">
             <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
