@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="overflow-x-hidden">
     <!--  Banner  -->
     <div class="w-full intro md:p-16 p-10 relative md:h-screen flex flex-col md:gap-24 gap-10 justify-center align-center bg-black">
       <h3 class="font-medium tracking-widest uppercase text-white">Август, 24-27 / Ташкент</h3>
@@ -14,9 +14,9 @@
         <p class="text-base font-extralight text-center font-light">Ежегодный весенний фестиваль с винтажными лавками, музыкой и современным искусством. Вы увидите живые выступления актеров, попробуете местной еды и запустите сотни небесных фонарей!</p>
       </div>
 
-      <div class="flex sm:flex-row flex-col gap-2">
-        <div class="flex sm:w-1/3 flex-col w-72 mx-auto gap-2">
-          <div class="card card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
+      <div class="flex sm-width gap-2">
+        <div class="flex sm:w-1/3 flex-col mx-auto gap-2">
+          <div class="card card_small_w max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
             <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/700" alt="Gallery image">
             <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
               <h3 class="text-white text-xl font-bold text-left">Винтажные распродажи</h3>
@@ -24,7 +24,7 @@
             </div>
           </div>
 
-          <div class="card card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
+          <div class="card card_small card_small_w max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
             <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/700" alt="Gallery image">
             <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
               <h3 class="text-white text-xl font-bold text-left">Винтажные распродажи</h3>
@@ -33,16 +33,18 @@
           </div>
         </div>
 
-        <div class="card card_small sm:w-1/3 w-72 mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
-          <img style="height: 61vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/1000" alt="Gallery image">
-          <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
-            <h3 class="text-white text-xl font-bold text-left">Винтажные распродажи</h3>
-            <p class="text-base text-white text-left font-light">5-8 марта</p>
+        <div class="md:w-1/3">
+          <div class="card card_small card_small_w w-full md:mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
+            <img style="height: 61vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/1000" alt="Gallery image">
+            <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
+              <h3 class="text-white text-xl font-bold text-left">Винтажные распродажи</h3>
+              <p class="text-base text-white text-left font-light">5-8 марта</p>
+            </div>
           </div>
         </div>
 
-        <div class="flex flex-col sm:w-1/3 w-72 mx-auto gap-2">
-          <div class="card card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
+        <div class="flex flex-col sm:w-1/3 mx-auto gap-2">
+          <div class="card card_small_w card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
             <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/700" alt="Gallery image">
             <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
               <h3 class="text-white text-xl font-bold text-left">Винтажные распродажи</h3>
@@ -51,7 +53,7 @@
           </div>
 
 
-          <div class="card card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
+          <div class="card card_small card_small_w max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
             <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/700" alt="Gallery image">
             <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
               <h3 class="text-white text-xl font-bold text-left">Винтажные распродажи</h3>
