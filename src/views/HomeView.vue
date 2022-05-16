@@ -487,6 +487,9 @@ export default {
       userId: 1
     }
   },
+  mounted() {
+    emailjs.init('U0WDIKCNil6hS3h54')
+  },
   methods: {
     // onClick(e) {
     //   console.log(e)
