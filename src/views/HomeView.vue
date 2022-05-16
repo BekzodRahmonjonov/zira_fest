@@ -494,7 +494,7 @@ export default {
     sendEmail(e) {
       try {
         emailjs.sendForm('service_alkeyvl', 'template_b5a81ff', e.target,
-          '1', {
+          this.userId, {
             name: this.name,
             email: this.email,
             phone: this.phone,
@@ -509,6 +509,7 @@ export default {
       this.email = ""
       this.phone = ""
       this.message = ""
+      this.userId++
     }
   },
 }
