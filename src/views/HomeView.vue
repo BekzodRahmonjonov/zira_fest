@@ -435,7 +435,7 @@
           </div>
           <div class="message">
             <label for="message"></label>
-            <input type="text" name="message" v-model="message" placeholder="Задай вопрос и отправь форму. Мы тебе перезвоним!)" id="message" cols="30" rows="3" required />
+            <textarea name="message" v-model="message" placeholder="Задай вопрос и отправь форму. Мы тебе перезвоним!)" id="message" cols="30" rows="3" required></textarea>
           </div>
           <div class="submit">
             <input type="submit" value="Отправить" id="form_button" />
