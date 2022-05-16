@@ -420,22 +420,22 @@
       </div>
 
       <div class="max-w-4xl center px-5">
-        <form>
+        <form  @submit.prevent="sendEmail">
           <div class="email">
             <label for="email"></label>
-            <input type="email" placeholder="Имейл" name="email" id="email" required>
+            <input type="email" v-model="email" placeholder="Имейл" name="email" id="email" required>
           </div>
           <div class="email">
             <label for="phone"></label>
-            <input type="text" placeholder="Телефон" name="phone" id="phone" required>
+            <input type="text" v-model="phone" placeholder="Телефон" name="phone" id="phone" required>
           </div>
           <div class="email">
             <label for="name"></label>
-            <input type="text" placeholder="Имя" name="name" id="name" required>
+            <input type="text" v-model="name" placeholder="Имя" name="name" id="name" required>
           </div>
           <div class="message">
             <label for="message"></label>
-            <textarea name="message" placeholder="Задай вопрос и отправь форму. Мы тебе перезвоним!)" id="message" cols="30" rows="3" required></textarea>
+            <textarea name="message" v-model="message" placeholder="Задай вопрос и отправь форму. Мы тебе перезвоним!)" id="message" cols="30" rows="3" required></textarea>
           </div>
           <div class="submit">
             <input type="submit" value="Отправить" id="form_button" />
@@ -469,6 +469,7 @@
 
 <script>
 // import { yandexMap, ymapMarker } from 'vue-yandex-maps'
+import emailjs from 'emailjs-com';
 
 export default {
   name: 'HomeView',
@@ -478,13 +479,37 @@ export default {
       coords: [
         54.82896654088406,
         39.831893822753904
-      ]
+      ],
+      email: "",
+      name: "",
+      phone: "",
+      message: "",
+      userId: 1
     }
   },
   methods: {
     // onClick(e) {
     //   console.log(e)
     // },
+    sendEmail(e) {
+      try {
+        emailjs.sendForm('service_alkeyvl', 'template_b5a81ff', e.target,
+          '1', {
+            name: this.name,
+            email: this.email,
+            phone: this.phone,
+            message: this.message
+          })
+      }
+
+      catch (err) {
+        console.log(err)
+      }
+      this.name = ""
+      this.email = ""
+      this.phone = ""
+      this.message = ""
+    }
   },
 }
 </script>
