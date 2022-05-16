@@ -496,7 +496,7 @@ export default {
     // },
     sendEmail(e) {
       try {
-        emailjs.sendForm('service_alkeyvl', 'template_b5a81ff', e.target,
+        emailjs.sendForm('service_alkeyvl', 'template_1sdynal', e.target,
           'U0WDIKCNil6hS3h54', {
             name: this.name,
             email: this.email,
