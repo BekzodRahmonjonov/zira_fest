@@ -132,7 +132,15 @@
     <div class="max-w-5xl center md:py-20 py-10">
       <div class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
         <h2 class="text-3xl font-bold">Билеты</h2>
-        <p class="text-base font-extralight text-center font-light">Ежегодный весенний фестиваль с винтажными лавками, музыкой и современным искусством. Вы увидите живые выступления актеров, попробуете местной еды и запустите сотни небесных фонарей!</p>
+        <p class="text-base font-extralight text-center font-light">
+          <span>Целых 3 дня обучения у профессионалов. Лекции от ведущих маркетологов, рестораторов, HR-специалистов и Мастер классы от крутых шефов</span>
+          <br>
+          <span>VIP - доступ в зону лекций и мастер классов, знакомство со спикерами на 3 дня</span>
+          <br>
+          <span>Chefs MK full - доступ в зону мастер классов на 3 дня </span>
+          <br>
+          <span>Chefs MK day - доступ в зону мастер классов на 1 день</span>
+        </p>
       </div>
       <div class="flex flex-wrap gap-8 justify-center py-6">
         <div class="ticket overflow-hidden rounded-2xl relative w-80 p-4 py-8">
@@ -143,13 +151,14 @@
             <div class="flex flex-col text-left pl-6 gap-6">
               <div>
                 <h3 class="text-white text-xl font-semibold">VIP</h3>
-                <p class="text-white">Осталось 6 шт.</p>
+                <br>
+<!--                <p class="text-white">Осталось 6 шт.</p>-->
               </div>
-              <h3 class="text-white font-semibold text-xl">210 000 ₽</h3>
+              <h3 class="text-white font-semibold text-xl">1 000 000 uzs</h3>
             </div>
             <div class="flex flex-col align-bottom justify-end">
               <a href="#form">
-                <el-button class="w-28">Buy</el-button>
+<!--                <el-button class="w-28">Buy</el-button>-->
               </a>
             </div>
           </div>
@@ -162,13 +171,14 @@
             <div class="flex flex-col text-left pl-6 gap-6">
               <div>
                 <h3 class="text-white text-xl font-semibold">Chefs MK FULL</h3>
-                <p class="text-white">Осталось 6 шт.</p>
+                <br>
+<!--                <p class="text-white">Осталось 6 шт.</p>-->
               </div>
-              <h3 class="text-white font-semibold text-xl">210 000 ₽</h3>
+              <h3 class="text-white font-semibold text-xl">500 000 uzs</h3>
             </div>
             <div class="flex flex-col align-bottom justify-end">
               <a href="#form">
-                <el-button class="w-28">Buy</el-button>
+<!--                <el-button class="w-28">Buy</el-button>-->
               </a>
             </div>
           </div>
@@ -181,13 +191,14 @@
             <div class="flex flex-col text-left pl-6 gap-6">
               <div>
                 <h3 class="text-white text-xl font-semibold">Chefs MK DAY</h3>
-                <p class="text-white">Осталось 6 шт.</p>
+                <br>
+<!--                <p class="text-white">Осталось 6 шт.</p>-->
               </div>
-              <h3 class="text-white font-semibold text-xl">210 000 ₽</h3>
+              <h3 class="text-white font-semibold text-xl">300 000 uzs</h3>
             </div>
             <div class="flex flex-col align-bottom justify-end">
               <a href="#form">
-                <el-button class="w-28">Buy</el-button>
+<!--                <el-button class="w-28">Buy</el-button>-->
               </a>
             </div>
           </div>
@@ -197,8 +208,10 @@
 
     <div class="py-16 flex flex-col gap-10">
       <div class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
-        <h2 class="text-3xl font-bold">Карты</h2>
-        <p class="text-base font-extralight text-center font-light">Ежегодный весенний фестиваль с винтажными лавками, музыкой и современным искусством. Вы увидите живые выступления актеров, попробуете местной еды и запустите сотни небесных фонарей!</p>
+        <h2 class="text-3xl font-bold">Профиль фестиваля</h2>
+        <p class="text-base font-extralight text-center font-light">Профиль фестиваля
+
+          На фестивале вы сможете найти все, для того чтобы легко открыть свой ресторанчик или кафе. От мебели до продуктов - мы собрали лучших из лучших</p>
       </div>
       <div class="flex justify-center flex-wrap gap-6 max-w-5xl mx-auto">
         <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
@@ -219,49 +232,49 @@
           <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1203/700" alt="Gallery image">
           <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
             <h3 class="text-white text-xl font-bold text-left">IT- решения: Автоматизация</h3>
-            <p class="text-base text-white text-left font-light">5-8 марта</p>
+<!--            <p class="text-base text-white text-left font-light">5-8 марта</p>-->
           </div>
         </div>
         <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
           <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1202/700" alt="Gallery image">
           <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
             <h3 class="text-white text-xl font-bold text-left">Посуда</h3>
-            <p class="text-base text-white text-left font-light">5-8 марта</p>
+<!--            <p class="text-base text-white text-left font-light">5-8 марта</p>-->
           </div>
         </div>
         <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
           <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1201/700" alt="Gallery image">
           <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
             <h3 class="text-white text-xl font-bold text-left">Текстиль</h3>
-            <p class="text-base text-white text-left font-light">5-8 марта</p>
+<!--            <p class="text-base text-white text-left font-light">5-8 марта</p>-->
           </div>
         </div>
         <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
           <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/703" alt="Gallery image">
           <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
             <h3 class="text-white text-xl font-bold text-left">Продукты питания</h3>
-            <p class="text-base text-white text-left font-light">5-8 марта</p>
+<!--            <p class="text-base text-white text-left font-light">5-8 марта</p>-->
           </div>
         </div>
         <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
           <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/702" alt="Gallery image">
           <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
             <h3 class="text-white text-xl font-bold text-left">Чай - кофе</h3>
-            <p class="text-base text-white text-left font-light">5-8 марта</p>
+<!--            <p class="text-base text-white text-left font-light">5-8 марта</p>-->
           </div>
         </div>
         <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
           <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/701" alt="Gallery image">
           <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
             <h3 class="text-white text-xl font-bold text-left">Фрашизы</h3>
-            <p class="text-base text-white text-left font-light">5-8 марта</p>
+<!--            <p class="text-base text-white text-left font-light">5-8 марта</p>-->
           </div>
         </div>
         <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
           <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/700" alt="Gallery image">
           <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
             <h3 class="text-white text-xl font-bold text-left">Винтажные распродажи</h3>
-            <p class="text-base text-white text-left font-light">5-8 марта</p>
+<!--            <p class="text-base text-white text-left font-light">5-8 марта</p>-->
           </div>
         </div>
       </div>
@@ -302,12 +315,14 @@
         <yandex-map
           :coords="coords"
           :zoom="10"
-          style="width: 100%; height: 100%"
+          @click="onClick"
+          style="width: 1000px; height: 500px"
         >
           <ymap-marker
             :coords="coords"
             marker-id="123"
             hint-content="some hint"
+            style="width: 100px; height: 100px"
           />
         </yandex-map>
       </div>
@@ -415,8 +430,10 @@
     <!--  How to get involved  -->
     <div class="flex flex-col md:py-20 py-10 md:gap-24 gap-10 align-center justify-center max-w-5xl mx-auto relative">
       <div id="form" class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
-        <h2 class="text-3xl font-bold">Как стать участником?</h2>
-        <p class="text-base font-extralight text-center font-light	">Если вы варите невероятный кофе, делаете украшения, играете в группе или театре или ведете другое интересное дело, мы вам очень рады! Напишите как вы сможете сделаете фестиваль ярче!</p>
+        <h2 class="text-3xl font-bold">Отправь заявку</h2>
+        <p class="text-base font-extralight text-center font-light">Отправь заявку
+
+          Если вы хотите принять участие в фестивале в качестве экспонента или у вас есть вопросы, то отправляйте заявку и мы с вами свяжемся</p>
       </div>
 
       <div class="max-w-4xl center px-5">
@@ -478,7 +495,7 @@ export default {
     return {
       coords: [
         54.82896654088406,
-        39.831893822753904
+        39.831893822753904,
       ],
       email: "",
       name: "",
@@ -487,13 +504,13 @@ export default {
       userId: 1
     }
   },
-  mounted() {
-    emailjs.init('U0WDIKCNil6hS3h54')
-  },
+  // mounted() {
+  //   emailjs.init('U0WDIKCNil6hS3h54')
+  // },
   methods: {
-    // onClick(e) {
-    //   console.log(e)
-    // },
+    onClick(e) {
+      this.coords = e.get('coords');
+    },
     sendEmail(e) {
       try {
         emailjs.sendForm('service_alkeyvl', 'template_1sdynal', e.target,
@@ -518,6 +535,9 @@ export default {
 }
 </script>
 
-<style lang="">
-
+<style lang="scss">
+.map-box, .ymap-container, .ymapbox, ymaps {
+  width: 100%;
+  min-height: 600px;
+}
 </style>
