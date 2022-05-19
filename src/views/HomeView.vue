@@ -2,8 +2,8 @@
   <div class="overflow-x-hidden">
     <!--  Banner  -->
     <div class="w-full intro md:p-16 p-10 relative md:h-screen flex flex-col md:gap-24 gap-10 justify-center align-center bg-black">
-      <h3 class="font-medium tracking-widest uppercase text-white">Август, 24-27 / Ташкент</h3>
-      <h1 class="md:text-6xl text-4xl font-medium tracking-wide text-white">Гастро-фестиваль Zira Fest</h1>
+<!--      <h3 class="font-medium tracking-widest uppercase text-white">Август, 24-27 / Ташкент</h3>-->
+<!--      <h1 class="md:text-6xl text-4xl font-medium tracking-wide text-white">Гастро-фестиваль Zira Fest</h1>-->
       <div class="arrow"></div>
     </div>
 
@@ -89,7 +89,7 @@
     <div class="flex flex-col md:py-20 py-10 md:gap-24 gap-10">
       <div class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
         <h2 class="text-3xl font-bold">Программа фестиваля</h2>
-        <p class="text-base font-extralight text-center font-light">Мы активно насыщаем программу: устраиваем игры и конкурсы для детей, играем музыку и делаем световые представления.</p>
+        <p class="text-base font-extralight text-center font-light">Мы позаботились и об обучающей части фестиваля. Лучшие спикеры и шеф-повара подготовили взрывную программу</p>
       </div>
 
       <div class="flex justify-center sm:gap-6 gap-2 flex-wrap">
@@ -216,14 +216,14 @@
           <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/709" alt="Gallery image">
           <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
             <h3 class="text-white text-xl font-bold text-left">Мебель</h3>
-            <p class="text-base text-white text-left font-light">5-8 марта</p>
+<!--            <p class="text-base text-white text-left font-light">5-8 марта</p>-->
           </div>
         </div>
         <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
           <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1205/700" alt="Gallery image">
           <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
             <h3 class="text-white text-xl font-bold text-left">Оборудование</h3>
-            <p class="text-base text-white text-left font-light">5-8 марта</p>
+<!--            <p class="text-base text-white text-left font-light">5-8 марта</p>-->
           </div>
         </div>
         <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
@@ -307,7 +307,7 @@
     <div class="flex flex-col md:py-20 py-10 bg-gray-100 md:gap-24 gap-10">
       <div class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
         <h2 class="text-3xl font-bold">Где проходит фестиваль?</h2>
-        <p class="text-base font-extralight text-center font-light">В городе мы задействовали 9 площадок в километровой доступности друг от друга. Сменяйте локацию во время прогулок по городу.</p>
+        <p class="text-base font-extralight text-center font-light">Фестиваль расположился на территории парка “NAVRUZ”. Отдельная площадка для чемпионата по плову, аллея для франшиз и ресторанов. Крытая зона для выставки, лекций и мастер классов</p>
       </div>
       <div style="width: 1000px; height: 500px;">
         <yandex-map
@@ -429,9 +429,7 @@
     <div class="flex flex-col md:py-20 py-10 md:gap-24 gap-10 align-center justify-center max-w-5xl mx-auto relative">
       <div id="form" class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
         <h2 class="text-3xl font-bold">Отправь заявку</h2>
-        <p class="text-base font-extralight text-center font-light">Отправь заявку
-
-          Если вы хотите принять участие в фестивале в качестве экспонента или у вас есть вопросы, то отправляйте заявку и мы с вами свяжемся</p>
+        <p class="text-base font-extralight text-center font-light">Если вы хотите принять участие в фестивале в качестве экспонента или у вас есть вопросы, то отправляйте заявку и мы с вами свяжемся</p>
       </div>
 
       <div class="max-w-4xl center px-5">
@@ -462,22 +460,22 @@
     <!--  Footer section  -->
     <footer class="flex flex-col gap-8 bg-black py-10">
       <div class="flex gap-6 justify-center align-middle">
-        <a href="https://twitter.com/" target="_blank">
-          <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve"><desc>Twitter</desc><path style="fill:#ffffff;" d="M41.8 12.7c-1.3.6-2.8 1-4.2 1.1 1.5-1 2.6-2.3 3.2-4-1.5.8-2.9 1.5-4.7 1.8-1.3-1.5-3.2-2.3-5.3-2.3-4 0-7.3 3.2-7.3 7.3 0 .6 0 1.1.2 1.6-6-.3-11.3-3.2-15.1-7.6-.6 1.1-1 2.3-1 3.7 0 2.6 1.3 4.7 3.2 6-1.1 0-2.3-.3-3.2-1v.2c0 3.6 2.4 6.5 5.8 7.1-.6.2-1.3.3-1.9.3-.5 0-1 0-1.3-.2 1 2.9 3.6 5 6.8 5-2.4 1.9-5.7 3.1-9.1 3.1-.6 0-1.1 0-1.8-.2 3.2 2.1 7 3.2 11.2 3.2 13.4 0 20.7-11 20.7-20.7v-1c1.7-.7 2.8-2 3.8-3.4z"></path></svg>
-        </a>
-        <a href="https://vk.com/?lang=en" target="_blank">
-          <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 109 109" enable-background="new 0 0 109 109" xml:space="preserve"><desc>VK</desc><path style="fill:#ffffff;" fill-rule="evenodd" clip-rule="evenodd" d="M58.8408 81C29.458 81 12.6984 60.7296 12 27H26.7184C27.2018 51.7567 38.0522 62.2433 46.6469 64.4056V27H60.5062V48.3515C68.9934 47.4326 77.9093 37.7026 80.9174 27H94.7766C92.4668 40.1893 82.7978 49.9189 75.922 53.9189C82.7978 57.1622 93.8103 65.6489 98 81H82.7443C79.4677 70.73 71.3033 62.7837 60.5062 61.703V81H58.8408Z"></path></svg>
-        </a>
-        <a href="https://www.youtube.com/" target="_blank">
-          <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 48 48" enable-background="new -455 257 48 48" xml:space="preserve"><desc>Youtube</desc><path style="fill:#ffffff;" d="M43.9 15.3c-.4-3.1-2.2-5-5.3-5.3-3.6-.3-11.4-.5-15-.5-7.3 0-10.6.2-14.1.5-3.3.3-4.8 1.8-5.4 4.9-.4 2.1-.6 4.1-.6 8.9 0 4.3.2 6.9.5 9.2.4 3.1 2.5 4.8 5.7 5.1 3.6.3 10.9.5 14.4.5s11.2-.2 14.7-.6c3.1-.4 4.6-2 5.1-5.1 0 0 .5-3.3.5-9.1 0-3.3-.2-6.4-.5-8.5zM19.7 29.8V18l11.2 5.8-11.2 6z"></path></svg>
-        </a>
+<!--        <a href="https://twitter.com/" target="_blank">-->
+<!--          <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve"><desc>Twitter</desc><path style="fill:#ffffff;" d="M41.8 12.7c-1.3.6-2.8 1-4.2 1.1 1.5-1 2.6-2.3 3.2-4-1.5.8-2.9 1.5-4.7 1.8-1.3-1.5-3.2-2.3-5.3-2.3-4 0-7.3 3.2-7.3 7.3 0 .6 0 1.1.2 1.6-6-.3-11.3-3.2-15.1-7.6-.6 1.1-1 2.3-1 3.7 0 2.6 1.3 4.7 3.2 6-1.1 0-2.3-.3-3.2-1v.2c0 3.6 2.4 6.5 5.8 7.1-.6.2-1.3.3-1.9.3-.5 0-1 0-1.3-.2 1 2.9 3.6 5 6.8 5-2.4 1.9-5.7 3.1-9.1 3.1-.6 0-1.1 0-1.8-.2 3.2 2.1 7 3.2 11.2 3.2 13.4 0 20.7-11 20.7-20.7v-1c1.7-.7 2.8-2 3.8-3.4z"></path></svg>-->
+<!--        </a>-->
+<!--        <a href="https://vk.com/?lang=en" target="_blank">-->
+<!--          <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 109 109" enable-background="new 0 0 109 109" xml:space="preserve"><desc>VK</desc><path style="fill:#ffffff;" fill-rule="evenodd" clip-rule="evenodd" d="M58.8408 81C29.458 81 12.6984 60.7296 12 27H26.7184C27.2018 51.7567 38.0522 62.2433 46.6469 64.4056V27H60.5062V48.3515C68.9934 47.4326 77.9093 37.7026 80.9174 27H94.7766C92.4668 40.1893 82.7978 49.9189 75.922 53.9189C82.7978 57.1622 93.8103 65.6489 98 81H82.7443C79.4677 70.73 71.3033 62.7837 60.5062 61.703V81H58.8408Z"></path></svg>-->
+<!--        </a>-->
+<!--        <a href="https://www.youtube.com/" target="_blank">-->
+<!--          <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 48 48" enable-background="new -455 257 48 48" xml:space="preserve"><desc>Youtube</desc><path style="fill:#ffffff;" d="M43.9 15.3c-.4-3.1-2.2-5-5.3-5.3-3.6-.3-11.4-.5-15-.5-7.3 0-10.6.2-14.1.5-3.3.3-4.8 1.8-5.4 4.9-.4 2.1-.6 4.1-.6 8.9 0 4.3.2 6.9.5 9.2.4 3.1 2.5 4.8 5.7 5.1 3.6.3 10.9.5 14.4.5s11.2-.2 14.7-.6c3.1-.4 4.6-2 5.1-5.1 0 0 .5-3.3.5-9.1 0-3.3-.2-6.4-.5-8.5zM19.7 29.8V18l11.2 5.8-11.2 6z"></path></svg>-->
+<!--        </a>-->
         <a href="https://telegram.me/" target="_blank">
           <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px" viewBox="0 0 60 60" xml:space="preserve"><desc>Telegram</desc><path style="fill:#ffffff;" d="M52.5,9L6.1,26.9c-0.9,0.4-0.9,1.8,0,2.3l11.9,4.9l4.4,14.1c0.3,0.8,1.2,1,1.8,0.5l6.8-6.4l12.9,8.7c0.7,0.4,1.6,0,1.7-0.7L54,10.3C54.2,9.5,53.3,8.7,52.5,9z M24.5,36.7L23.8,44l-3.6-11.2l25.3-16.8L24.5,36.7z"></path></svg>
         </a>
       </div>
 
-      <h4 class="w-72 mx-auto text-xl text-white font-bold">Свяжитесь с нами по любому вопросу по почте или в социальных сетях</h4>
-      <a href="https://mail.ru/" class="text-center text-white text-base font-light" target="_blank">hello@springfest.go</a>
+      <h4 class="w-72 mx-auto text-xl text-white font-bold">Свяжитесь с нами оставив заявку или в телеграмме</h4>
+<!--      <a href="https://mail.ru/" class="text-center text-white text-base font-light" target="_blank">hello@springfest.go</a>-->
     </footer>
   </div>
 </template>
