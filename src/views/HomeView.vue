@@ -209,9 +209,7 @@
     <div class="py-16 flex flex-col gap-10">
       <div class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
         <h2 class="text-3xl font-bold">Профиль фестиваля</h2>
-        <p class="text-base font-extralight text-center font-light">Профиль фестиваля
-
-          На фестивале вы сможете найти все, для того чтобы легко открыть свой ресторанчик или кафе. От мебели до продуктов - мы собрали лучших из лучших</p>
+        <p class="text-base font-extralight text-center font-light">На фестивале вы сможете найти все, для того чтобы легко открыть свой ресторанчик или кафе. От мебели до продуктов - мы собрали лучших из лучших</p>
       </div>
       <div class="flex justify-center flex-wrap gap-6 max-w-5xl mx-auto">
         <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
