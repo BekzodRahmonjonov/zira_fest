@@ -94,7 +94,7 @@
 
       <div class="flex justify-center sm:gap-6 gap-2 flex-wrap">
         <div class="sm:w-64 sm:h-auto w-36 h-36 relative bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
-          <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/men/15.jpg" alt="" />
+          <img class="rounded-t-lg w-full object-cover" src="../assets/images/soon.jpg" alt="" />
           <div class="bg-shadow p-2">
             <h5 class="sm:mb-2 sm:text-lg text-base font-bold tracking-tight text-gray-900 dark:text-white text-left">Стас Савин</h5>
             <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 sm:mb-6">Дизайн дироектор</p>
@@ -102,7 +102,7 @@
           </div>
         </div>
         <div class="sm:w-64 sm:h-auto w-36 h-36 relative bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
-          <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/women/18.jpg" alt="" />
+          <img class="rounded-t-lg w-full object-cover" src="../assets/images/soon.jpg" alt="" />
           <div class="bg-shadow p-2">
             <h5 class="sm:mb-2 sm:text-lg text-base font-bold tracking-tight text-gray-900 dark:text-white text-left">Ева Надинова</h5>
             <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 sm:mb-6">Партнеры и спонсоры</p>
@@ -110,7 +110,7 @@
           </div>
         </div>
         <div class="sm:w-64 sm:h-auto w-36 h-36 relative bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
-          <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/women/6.jpg" alt="" />
+          <img class="rounded-t-lg w-full object-cover" src="../assets/images/soon.jpg" alt="" />
           <div class="bg-shadow p-2">
             <h5 class="sm:mb-2 sm:text-lg text-base font-bold tracking-tight text-gray-900 dark:text-white text-left">Елена Бакина</h5>
             <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 sm:mb-6">Основатель и директор фестиваля</p>
@@ -118,7 +118,7 @@
           </div>
         </div>
         <div class="sm:w-64 sm:h-auto w-36 h-36 relative bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
-          <img class="rounded-t-lg w-full object-cover" src="https://randomuser.me/api/portraits/women/23.jpg" alt="" />
+          <img class="rounded-t-lg w-full object-cover" src="../assets/images/soon.jpg" alt="" />
           <div class="bg-shadow p-2">
             <h5 class="sm:mb-2 sm:text-lg text-base font-bold tracking-tight text-gray-900 dark:text-white text-left">Жанна Корина</h5>
             <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 sm:mb-6">Менеджер проекта</p>
