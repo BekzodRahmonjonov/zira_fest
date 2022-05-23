@@ -27,16 +27,16 @@
 
       <div class="flex sm-width gap-2">
         <div class="flex lg:w-1/3 flex-col mx-auto gap-2">
-          <div class="card card_small_w max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
-            <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/700" alt="Gallery image">
+          <div class="card card_small card_small_w max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
+            <img style="height: 30vh; width: 280px; position: relative; z-index: -1" class="w-full object-cover" src="../assets/images/1.jpg" alt="Gallery image">
             <div class="flex flex-col gap-2 absolute bottom-0.5 p-4">
-              <h3 class="text-white text-xl font-bold text-left">4 дня</h3>
+              <h3 class="text-white text-xl font-bold text-left">+10.000 посетителей</h3>
               <p class="text-base text-white text-left font-light">5-8 марта</p>
             </div>
           </div>
 
           <div class="card card_small card_small_w max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
-            <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/700" alt="Gallery image">
+            <img style="height: 30vh; width: 280px; position: relative; z-index: -1" class="w-full object-cover" src="../assets/images/2.jpg" alt="Gallery image">
             <div class="flex flex-col gap-2 absolute bottom-0.5 p-4">
               <h3 class="text-white text-xl font-bold text-left">+10.000 посетителей</h3>
               <p class="text-base text-white text-left font-light">5-8 марта</p>
@@ -46,7 +46,7 @@
 
         <div class="lg:w-1/3">
           <div class="card card_small card_small_w w-full md:mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
-            <img style="height: 61vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/1000" alt="Gallery image">
+            <img style="height: 61vh; width: 280px; position: relative; z-index: -1" class="w-full object-cover" src="../assets/images/3.jpg" alt="Gallery image">
             <div class="flex flex-col gap-2 absolute bottom-0.5 p-4">
               <h3 class="text-white text-xl font-bold text-left">Международный чемпионат по плову</h3>
               <p class="text-base text-white text-left font-light">5-8 марта</p>
@@ -56,7 +56,7 @@
 
         <div class="flex flex-col lg:w-1/3 mx-auto gap-2">
           <div class="card card_small_w card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
-            <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/700" alt="Gallery image">
+            <img style="height: 30vh; position: relative; z-index: -1; width: 280px" class="w-full object-cover" src="../assets/images/4.jpg" alt="Gallery image">
             <div class="flex flex-col gap-2 absolute bottom-0.5 p-4">
               <h3 class="text-white text-xl font-bold text-left">Профессиональная выставка</h3>
               <p class="text-base text-white text-left font-light">5-8 марта</p>
@@ -65,7 +65,7 @@
 
 
           <div class="card card_small card_small_w max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
-            <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/700" alt="Gallery image">
+            <img style="height: 30vh; position: relative; z-index: -1; width: 280px" class="w-full object-cover" src="../assets/images/5.jpg" alt="Gallery image">
             <div class="flex flex-col gap-2 absolute bottom-0.5 p-4">
               <h3 class="text-white text-xl font-bold text-left">16 спикеров</h3>
               <p class="text-base text-white text-left font-light">5-8 марта</p>
@@ -75,7 +75,7 @@
 
         <div class="lg:w-1/3">
           <div class="card card_small card_small_w w-full md:mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
-            <img style="height: 61vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/1000" alt="Gallery image">
+            <img style="height: 61vh; position: relative; z-index: -1; width: 280px" class="w-full object-cover" src="../assets/images/6.jpg" alt="Gallery image">
             <div class="flex flex-col gap-2 absolute bottom-0.5 p-4">
               <h3 class="text-white text-xl font-bold text-left">Фестиваль еды</h3>
               <p class="text-base text-white text-left font-light">5-8 марта</p>
@@ -213,63 +213,63 @@
       </div>
       <div class="flex justify-center flex-wrap gap-6 max-w-5xl mx-auto">
         <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
-          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/709" alt="Gallery image">
+          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="../assets/images/7.jpg" alt="Gallery image">
           <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
             <h3 class="text-white text-xl font-bold text-left">Мебель</h3>
 <!--            <p class="text-base text-white text-left font-light">5-8 марта</p>-->
           </div>
         </div>
         <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
-          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1205/700" alt="Gallery image">
+          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="../assets/images/8.jpg" alt="Gallery image">
           <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
             <h3 class="text-white text-xl font-bold text-left">Оборудование</h3>
 <!--            <p class="text-base text-white text-left font-light">5-8 марта</p>-->
           </div>
         </div>
         <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
-          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1203/700" alt="Gallery image">
+          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="../assets/images/9.jpg" alt="Gallery image">
           <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
             <h3 class="text-white text-xl font-bold text-left">IT- решения: Автоматизация</h3>
 <!--            <p class="text-base text-white text-left font-light">5-8 марта</p>-->
           </div>
         </div>
         <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
-          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1202/700" alt="Gallery image">
+          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="../assets/images/10.jpg" alt="Gallery image">
           <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
             <h3 class="text-white text-xl font-bold text-left">Посуда</h3>
 <!--            <p class="text-base text-white text-left font-light">5-8 марта</p>-->
           </div>
         </div>
         <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
-          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1201/700" alt="Gallery image">
+          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="../assets/images/11.jpg" alt="Gallery image">
           <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
             <h3 class="text-white text-xl font-bold text-left">Текстиль</h3>
 <!--            <p class="text-base text-white text-left font-light">5-8 марта</p>-->
           </div>
         </div>
         <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
-          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/703" alt="Gallery image">
+          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="../assets/images/12.jpg" alt="Gallery image">
           <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
             <h3 class="text-white text-xl font-bold text-left">Продукты питания</h3>
 <!--            <p class="text-base text-white text-left font-light">5-8 марта</p>-->
           </div>
         </div>
         <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
-          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/702" alt="Gallery image">
+          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="../assets/images/13.jpg" alt="Gallery image">
           <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
             <h3 class="text-white text-xl font-bold text-left">Чай - кофе</h3>
 <!--            <p class="text-base text-white text-left font-light">5-8 марта</p>-->
           </div>
         </div>
         <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
-          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/701" alt="Gallery image">
+          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="../assets/images/14.jpg" alt="Gallery image">
           <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
             <h3 class="text-white text-xl font-bold text-left">Фрашизы</h3>
 <!--            <p class="text-base text-white text-left font-light">5-8 марта</p>-->
           </div>
         </div>
         <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
-          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="https://picsum.photos/1200/700" alt="Gallery image">
+          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="../assets/images/15.jpg" alt="Gallery image">
           <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
             <h3 class="text-white text-xl font-bold text-left">Винтажные распродажи</h3>
 <!--            <p class="text-base text-white text-left font-light">5-8 марта</p>-->
