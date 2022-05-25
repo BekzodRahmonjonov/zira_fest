@@ -28,7 +28,7 @@
       <div class="flex sm-width gap-2">
         <div class="flex lg:w-1/3 flex-col mx-auto gap-2">
           <div class="card card_small card_small_w max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
-            <img style="height: 30vh; width: 280px; position: relative; z-index: -1" class="w-full object-cover" src="../assets/images/1.jpg" alt="Gallery image">
+            <img style="height: 30vh; width: 280px; position: relative; z-index: -1" class="w-full object-cover" src="../assets/images/1-1.jpg" alt="Gallery image">
             <div class="flex flex-col gap-2 absolute bottom-0.5 p-4">
               <h3 class="text-white text-xl font-bold text-left">+10.000 посетителей</h3>
               <p class="text-base text-white text-left font-light">5-8 марта</p>
@@ -268,13 +268,13 @@
 <!--            <p class="text-base text-white text-left font-light">5-8 марта</p>-->
           </div>
         </div>
-        <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
-          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="../assets/images/15.jpg" alt="Gallery image">
-          <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">
-            <h3 class="text-white text-xl font-bold text-left">Винтажные распродажи</h3>
-<!--            <p class="text-base text-white text-left font-light">5-8 марта</p>-->
-          </div>
-        </div>
+<!--        <div class="card w-80 card_small max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">-->
+<!--          <img style="height: 30vh; position: relative; z-index: -1" class="w-full object-cover" src="../assets/images/15.jpg" alt="Gallery image">-->
+<!--          <div class="flex flex-col gap-4 absolute bottom-0.5 p-4">-->
+<!--            <h3 class="text-white text-xl font-bold text-left">Винтажные распродажи</h3>-->
+<!--&lt;!&ndash;            <p class="text-base text-white text-left font-light">5-8 марта</p>&ndash;&gt;-->
+<!--          </div>-->
+<!--        </div>-->
       </div>
     </div>
 
