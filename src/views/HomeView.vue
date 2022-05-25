@@ -30,7 +30,7 @@
           <div class="card card_small card_small_w max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
             <img style="height: 30vh; width: 280px; position: relative; z-index: -1" class="w-full object-cover" src="../assets/images/1-1.jpg" alt="Gallery image">
             <div class="flex flex-col gap-2 absolute bottom-0.5 p-4">
-              <h3 class="text-white text-xl font-bold text-left">3-4 дня</h3>
+              <h3 class="text-white text-xl font-bold text-left">7 дней</h3>
 <!--              <p class="text-base text-white text-left font-light">5-8 марта</p>-->
             </div>
           </div>
