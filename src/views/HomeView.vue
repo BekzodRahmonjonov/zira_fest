@@ -314,15 +314,14 @@
           :coords="coords"
           :zoom="10"
           @click="onClick"
-          style="width: 1000px; height: 500px"
         >
           <ymap-marker
             :coords="coords"
             marker-id="123"
-            hint-content="some hint"
-            style="width: 100px; height: 100px"
+            hint-content="Us address"
           />
         </yandex-map>
+
       </div>
     </div>
 
@@ -500,9 +499,6 @@ export default {
       userId: 1
     }
   },
-  // mounted() {
-  //   emailjs.init('U0WDIKCNil6hS3h54')
-  // },
   methods: {
     onClick(e) {
       this.coords = e.get('coords');
