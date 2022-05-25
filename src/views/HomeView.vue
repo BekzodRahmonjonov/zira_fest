@@ -30,8 +30,8 @@
           <div class="card card_small card_small_w max-w-5xl mx-auto bg-gradient-to-t from-gray-400 to-white relative object-cover rounded-2xl overflow-hidden">
             <img style="height: 30vh; width: 280px; position: relative; z-index: -1" class="w-full object-cover" src="../assets/images/1-1.jpg" alt="Gallery image">
             <div class="flex flex-col gap-2 absolute bottom-0.5 p-4">
-              <h3 class="text-white text-xl font-bold text-left">+10.000 посетителей</h3>
-              <p class="text-base text-white text-left font-light">5-8 марта</p>
+              <h3 class="text-white text-xl font-bold text-left">3-4 дня</h3>
+<!--              <p class="text-base text-white text-left font-light">5-8 марта</p>-->
             </div>
           </div>
 
@@ -39,7 +39,7 @@
             <img style="height: 30vh; width: 280px; position: relative; z-index: -1" class="w-full object-cover" src="../assets/images/2.jpg" alt="Gallery image">
             <div class="flex flex-col gap-2 absolute bottom-0.5 p-4">
               <h3 class="text-white text-xl font-bold text-left">+10.000 посетителей</h3>
-              <p class="text-base text-white text-left font-light">5-8 марта</p>
+<!--              <p class="text-base text-white text-left font-light">5-8 марта</p>-->
             </div>
           </div>
         </div>
@@ -49,7 +49,7 @@
             <img style="height: 61vh; width: 280px; position: relative; z-index: -1" class="w-full object-cover" src="../assets/images/3.jpg" alt="Gallery image">
             <div class="flex flex-col gap-2 absolute bottom-0.5 p-4">
               <h3 class="text-white text-xl font-bold text-left">Международный чемпионат по плову</h3>
-              <p class="text-base text-white text-left font-light">5-8 марта</p>
+<!--              <p class="text-base text-white text-left font-light">5-8 марта</p>-->
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@
             <img style="height: 30vh; position: relative; z-index: -1; width: 280px" class="w-full object-cover" src="../assets/images/4.jpg" alt="Gallery image">
             <div class="flex flex-col gap-2 absolute bottom-0.5 p-4">
               <h3 class="text-white text-xl font-bold text-left">Профессиональная выставка</h3>
-              <p class="text-base text-white text-left font-light">5-8 марта</p>
+<!--              <p class="text-base text-white text-left font-light">5-8 марта</p>-->
             </div>
           </div>
 
@@ -68,7 +68,7 @@
             <img style="height: 30vh; position: relative; z-index: -1; width: 280px" class="w-full object-cover" src="../assets/images/5.jpg" alt="Gallery image">
             <div class="flex flex-col gap-2 absolute bottom-0.5 p-4">
               <h3 class="text-white text-xl font-bold text-left">16 спикеров</h3>
-              <p class="text-base text-white text-left font-light">5-8 марта</p>
+<!--              <p class="text-base text-white text-left font-light">5-8 марта</p>-->
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@
             <img style="height: 61vh; position: relative; z-index: -1; width: 280px" class="w-full object-cover" src="../assets/images/6.jpg" alt="Gallery image">
             <div class="flex flex-col gap-2 absolute bottom-0.5 p-4">
               <h3 class="text-white text-xl font-bold text-left">Фестиваль еды</h3>
-              <p class="text-base text-white text-left font-light">5-8 марта</p>
+<!--              <p class="text-base text-white text-left font-light">5-8 марта</p>-->
             </div>
           </div>
         </div>
@@ -92,38 +92,38 @@
         <p class="text-base font-extralight text-center font-light">Мы позаботились и об обучающей части фестиваля. Лучшие спикеры и шеф-повара подготовили взрывную программу</p>
       </div>
 
-      <div class="flex justify-center sm:gap-6 gap-2 flex-wrap">
-        <div class="sm:w-64 sm:h-auto w-36 h-36 relative bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
+      <div class="flex justify-center sm:gap-6 gap-2 flex-wrap h-rwd">
+        <div class="sm:w-64 w-36 h-36 relative bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
           <img class="rounded-t-lg w-full object-cover" src="../assets/images/soon.jpg" alt="" />
-          <div class="bg-shadow p-2">
-            <h5 class="sm:mb-2 sm:text-lg text-base font-bold tracking-tight text-gray-900 dark:text-white text-left">Стас Савин</h5>
-            <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 sm:mb-6">Дизайн дироектор</p>
-            <p class="font-light sm:block hidden text-left text-sm text-gray-700 dark:text-gray-400">Стас знает все о локациях, расположении партнеров и оборудовании</p>
-          </div>
+<!--          <div class="bg-shadow p-2">-->
+<!--            <h5 class="sm:mb-2 sm:text-lg text-base font-bold tracking-tight text-gray-900 dark:text-white text-left">Стас Савин</h5>-->
+<!--            <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 sm:mb-6">Дизайн дироектор</p>-->
+<!--            <p class="font-light sm:block hidden text-left text-sm text-gray-700 dark:text-gray-400">Стас знает все о локациях, расположении партнеров и оборудовании</p>-->
+<!--          </div>-->
         </div>
-        <div class="sm:w-64 sm:h-auto w-36 h-36 relative bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
+        <div class="sm:w-64 w-36 h-36 relative bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
           <img class="rounded-t-lg w-full object-cover" src="../assets/images/soon.jpg" alt="" />
-          <div class="bg-shadow p-2">
-            <h5 class="sm:mb-2 sm:text-lg text-base font-bold tracking-tight text-gray-900 dark:text-white text-left">Ева Надинова</h5>
-            <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 sm:mb-6">Партнеры и спонсоры</p>
-            <p class="font-light sm:block hidden text-left text-sm text-gray-700 dark:text-gray-400">Ева — голос нашего фестиваля! Она уделяет много внимания каждому клиенту.</p>
-          </div>
+<!--          <div class="bg-shadow p-2">-->
+<!--            <h5 class="sm:mb-2 sm:text-lg text-base font-bold tracking-tight text-gray-900 dark:text-white text-left">Ева Надинова</h5>-->
+<!--            <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 sm:mb-6">Партнеры и спонсоры</p>-->
+<!--            <p class="font-light sm:block hidden text-left text-sm text-gray-700 dark:text-gray-400">Ева — голос нашего фестиваля! Она уделяет много внимания каждому клиенту.</p>-->
+<!--          </div>-->
         </div>
-        <div class="sm:w-64 sm:h-auto w-36 h-36 relative bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
+        <div class="sm:w-64 w-36 h-36 relative bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
           <img class="rounded-t-lg w-full object-cover" src="../assets/images/soon.jpg" alt="" />
-          <div class="bg-shadow p-2">
-            <h5 class="sm:mb-2 sm:text-lg text-base font-bold tracking-tight text-gray-900 dark:text-white text-left">Елена Бакина</h5>
-            <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 sm:mb-6">Основатель и директор фестиваля</p>
-            <p class="font-light sm:block hidden text-left text-sm text-gray-700 dark:text-gray-400">Капитан нашего фестиваля! Лена знает о фестивале все! Она собрала нас в отличную команду лучшего городского праздника!</p>
-          </div>
+<!--          <div class="bg-shadow p-2">-->
+<!--            <h5 class="sm:mb-2 sm:text-lg text-base font-bold tracking-tight text-gray-900 dark:text-white text-left">Елена Бакина</h5>-->
+<!--            <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 sm:mb-6">Основатель и директор фестиваля</p>-->
+<!--            <p class="font-light sm:block hidden text-left text-sm text-gray-700 dark:text-gray-400">Капитан нашего фестиваля! Лена знает о фестивале все! Она собрала нас в отличную команду лучшего городского праздника!</p>-->
+<!--          </div>-->
         </div>
-        <div class="sm:w-64 sm:h-auto w-36 h-36 relative bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
+        <div class="sm:w-64 w-36 h-36 relative bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 object-cover">
           <img class="rounded-t-lg w-full object-cover" src="../assets/images/soon.jpg" alt="" />
-          <div class="bg-shadow p-2">
-            <h5 class="sm:mb-2 sm:text-lg text-base font-bold tracking-tight text-gray-900 dark:text-white text-left">Жанна Корина</h5>
-            <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 sm:mb-6">Менеджер проекта</p>
-            <p class="font-light sm:block hidden text-left text-sm text-gray-700 dark:text-gray-400">Все что нужно знать о расписании событий, участниках и партнерах, знает Жанна.</p>
-          </div>
+<!--          <div class="bg-shadow p-2">-->
+<!--            <h5 class="sm:mb-2 sm:text-lg text-base font-bold tracking-tight text-gray-900 dark:text-white text-left">Жанна Корина</h5>-->
+<!--            <p class="font-light text-left text-xs text-gray-700 dark:text-gray-400 sm:mb-6">Менеджер проекта</p>-->
+<!--            <p class="font-light sm:block hidden text-left text-sm text-gray-700 dark:text-gray-400">Все что нужно знать о расписании событий, участниках и партнерах, знает Жанна.</p>-->
+<!--          </div>-->
         </div>
       </div>
     </div>
@@ -535,5 +535,21 @@ export default {
 .map-box, .ymap-container, .ymapbox, ymaps {
   width: 100%;
   min-height: 600px;
+}
+
+@media screen and (max-width: 1110px) {
+  .h-rwd {
+    height: 520px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .h-rwd {
+    height: 255px;
+  }
+}
+@media screen and (max-width: 314px) {
+  .h-rwd {
+    height: 555px;
+  }
 }
 </style>
