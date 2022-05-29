@@ -187,10 +187,9 @@ input[type='text']:focus, [type='email']:focus, textarea:focus {
   background-size: cover;
 }
 
-
 @media screen and (max-width: 992px) {
   .intro {
-    height: 75vh;
+    height: 56vh;
   }
   .card_small_w {
     width: 280px;
@@ -214,6 +213,12 @@ input[type='text']:focus, [type='email']:focus, textarea:focus {
   }
 }
 
+@media screen and (max-width: 720px) {
+  .intro {
+    height: 50vh;
+  }
+}
+
 @media screen and (max-width: 650px) {
   .bg-shadow {
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.76));
@@ -224,6 +229,13 @@ input[type='text']:focus, [type='email']:focus, textarea:focus {
     h5, p {
       color: #ffffff;
     }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .intro {
+    background-image: url('../images/small-screen.jpg'), -webkit-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.60));
+    height: 100vh;
   }
 }
 
