@@ -11,13 +11,13 @@
     "core-js": "^3.8.3",
     "element-plus": "^2.1.4",
     "emailjs-com": "^3.2.0",
+    "leaflet": "^1.8.0",
     "postcss": "^8",
     "tailwindcss": "^3",
     "unplugin-auto-import": "^0.7.1",
     "unplugin-vue-components": "^0.19.5",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
-    "vue-yandex-maps": "^0.11.9",
     "vuex": "^4.0.0"
   },
   "devDependencies": {

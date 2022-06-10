@@ -304,24 +304,24 @@
     <!--    </div>-->
 
     <!--  Map  -->
-    <div class="flex flex-col md:py-20 py-10 bg-gray-100 md:gap-24 gap-10">
+    <div class="flex flex-col md:pt-20 pt-10 bg-gray-100 md:gap-24 gap-10">
       <div class="flex flex-col gap-6 max-w-3xl mx-auto px-3.5">
         <h2 class="text-3xl font-bold">Где проходит фестиваль?</h2>
         <p class="text-base font-extralight text-center font-light">Фестиваль расположился на территории парка “NAVRUZ”. Отдельная площадка для чемпионата по плову, аллея для франшиз и ресторанов. Крытая зона для выставки, лекций и мастер классов</p>
       </div>
-      <div style="width: 1000px; height: 500px;">
-        <yandex-map
-          :coords="coords"
-          :zoom="10"
-          @click="onClick"
-        >
-          <ymap-marker
-            :coords="coords"
-            marker-id="123"
-            hint-content="Us address"
-          />
-        </yandex-map>
-
+      <div>
+<!--        <yandex-map-->
+<!--          :coords="coords"-->
+<!--          :zoom="10"-->
+<!--          @click="onClick"-->
+<!--        >-->
+<!--          <ymap-marker-->
+<!--            :coords="coords"-->
+<!--            marker-id="123"-->
+<!--            hint-content="Us address"-->
+<!--          />-->
+<!--        </yandex-map>-->
+        <div style="margin: 0 auto" id="mapContainer"></div>
       </div>
     </div>
 
@@ -482,16 +482,17 @@
 <script>
 // import { yandexMap, ymapMarker } from 'vue-yandex-maps'
 import emailjs from 'emailjs-com';
+import "leaflet/dist/leaflet.css";
+import L from "leaflet";
+// import "../public/leaflet.curve.js";
+
 
 export default {
   name: 'HomeView',
   // components: { yandexMap, ymapMarker },
   data() {
     return {
-      coords: [
-        54.82896654088406,
-        39.831893822753904,
-      ],
+      map: null,
       email: "",
       name: "",
       phone: "",
@@ -499,10 +500,15 @@ export default {
       userId: 1
     }
   },
+  mounted() {
+    this.map = L.map("mapContainer").setView([41.3, 69.3], 11);
+    L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png", {
+      attribution:
+        '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+    }).addTo(this.map);
+  },
   methods: {
-    onClick(e) {
-      this.coords = e.get('coords');
-    },
+
     sendEmail(e) {
       try {
         emailjs.sendForm('service_alkeyvl', 'template_1sdynal', e.target,
@@ -528,9 +534,9 @@ export default {
 </script>
 
 <style lang="scss">
-.map-box, .ymap-container, .ymapbox, ymaps {
-  width: 100%;
-  min-height: 600px;
+#mapContainer {
+  height: 70vh;
+  margin: auto;
 }
 
 @media screen and (max-width: 1110px) {
