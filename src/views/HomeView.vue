@@ -484,7 +484,7 @@
 import emailjs from 'emailjs-com';
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
-// import "../public/leaflet.curve.js";
+import logo from "leaflet/src/images/marker.svg";
 
 
 export default {
@@ -501,14 +501,25 @@ export default {
     }
   },
   mounted() {
-    this.map = L.map("mapContainer").setView([41.3, 69.3], 11);
+    this.map = L.map("mapContainer").setView([41.311158, 69.279737], 11);
     L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png", {
       attribution:
         '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(this.map);
+    let customPane = this.map.createPane("customPane");
+    customPane.style.zIndex = 399;
+    let myIcon = L.icon({
+      iconUrl: logo,
+      iconSize: [38, 95],
+      iconAnchor: [22, 94],
+      popupAnchor: [-3, -76],
+      // shadowUrl: '',
+      shadowSize: [68, 95],
+      shadowAnchor: [22, 94]
+    });
+    L.marker([41.327811, 69.264546],{icon: myIcon}).addTo(this.map);
   },
   methods: {
-
     sendEmail(e) {
       try {
         emailjs.sendForm('service_alkeyvl', 'template_1sdynal', e.target,
